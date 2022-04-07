@@ -18,8 +18,8 @@ jobs:
         id: generate_token
         uses: tibdex/github-app-token@36464acb844fc53b9b8b2401da68844f6b05ebb0
         with:
-          app_id: ${{ secrets.GITHUB_APP_ID }}
-          private_key: ${{ secrets.GITHUB_APP_PRIVATE_KEY }}
+          app_id: ${{ secrets.GRAPHQL_AUTH_APP_ID }}
+          private_key: ${{ secrets.GRAPHQL_AUTH_APP_PEM }}
 
       - name: Get DEPR project ID
         env:
