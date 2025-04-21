@@ -1,0 +1,992 @@
+{
+    "._91434_oep-57-simplified-visual.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91434_oep-57-simplified-visual.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91434!oep-57-simplified-visual.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91434_oep-57-simplified-visual.png",
+        "import_path": ".!91434!oep-57-simplified-visual.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91435__Intro_to_Open_edX_Dev_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91435__Intro_to_Open_edX_Dev_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91435!_Intro to Open edX Dev course card.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91435__Intro_to_Open_edX_Dev_course_card.png",
+        "import_path": ".!91435!_Intro to Open edX Dev course card.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91436_Congrats_-_Open_edX_intro__1080___608_px_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91436_Congrats_-_Open_edX_intro__1080___608_px_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91436!Congrats - Open edX intro (1080 \u00d7 608 px).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91436_Congrats_-_Open_edX_intro__1080___608_px_.png",
+        "import_path": ".!91436!Congrats - Open edX intro (1080 \u00d7 608 px).png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91437_Congrats_-_Open_edX_intro.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91437_Congrats_-_Open_edX_intro.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91437!Congrats - Open edX intro.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91437_Congrats_-_Open_edX_intro.png",
+        "import_path": ".!91437!Congrats - Open edX intro.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91438_Demo_Course_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91438_Demo_Course_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91438!Demo Course course card.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91438_Demo_Course_course_card.png",
+        "import_path": ".!91438!Demo Course course card.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91439_2a79d562b3cd0029404d770e12ccd04716c720a9__1_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91439_2a79d562b3cd0029404d770e12ccd04716c720a9__1_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91439!2a79d562b3cd0029404d770e12ccd04716c720a9 (1).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91439_2a79d562b3cd0029404d770e12ccd04716c720a9__1_.png",
+        "import_path": ".!91439!2a79d562b3cd0029404d770e12ccd04716c720a9 (1).png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91440_curly_headshot.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91440_curly_headshot.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91440!curly headshot.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91440_curly_headshot.png",
+        "import_path": ".!91440!curly headshot.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91441_Working_groups_fireworks.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91441_Working_groups_fireworks.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91441!Working groups fireworks.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91441_Working_groups_fireworks.png",
+        "import_path": ".!91441!Working groups fireworks.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91442_2a79d562b3cd0029404d770e12ccd04716c720a9__2_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91442_2a79d562b3cd0029404d770e12ccd04716c720a9__2_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91442!2a79d562b3cd0029404d770e12ccd04716c720a9 (2).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91442_2a79d562b3cd0029404d770e12ccd04716c720a9__2_.png",
+        "import_path": ".!91442!2a79d562b3cd0029404d770e12ccd04716c720a9 (2).png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91443_2a79d562b3cd0029404d770e12ccd04716c720a9__3_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91443_2a79d562b3cd0029404d770e12ccd04716c720a9__3_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91443!2a79d562b3cd0029404d770e12ccd04716c720a9 (3).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91443_2a79d562b3cd0029404d770e12ccd04716c720a9__3_.png",
+        "import_path": ".!91443!2a79d562b3cd0029404d770e12ccd04716c720a9 (3).png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91444_unnamed.jpg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91444_unnamed.jpg",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91444!unnamed.jpg",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91444_unnamed.jpg",
+        "import_path": ".!91444!unnamed.jpg",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91445_core_contributor_badge_course_image.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91445_core_contributor_badge_course_image.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91445!core contributor badge course image.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91445_core_contributor_badge_course_image.png",
+        "import_path": ".!91445!core contributor badge course image.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91446_become_a_contributor_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91446_become_a_contributor_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91446!become a contributor!.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91446_become_a_contributor_.png",
+        "import_path": ".!91446!become a contributor!.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91447_Intro_to_Open_edX_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91447_Intro_to_Open_edX_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91447!Intro to Open edX course card.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91447_Intro_to_Open_edX_course_card.png",
+        "import_path": ".!91447!Intro to Open edX course card.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91448_2a79d562b3cd0029404d770e12ccd04716c720a9.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91448_2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91448!2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91448_2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+        "import_path": ".!91448!2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91676_oep-57-simplified-visual.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91676_oep-57-simplified-visual.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91676!oep-57-simplified-visual.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91676_oep-57-simplified-visual.png",
+        "import_path": ".!91676!oep-57-simplified-visual.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91677__Intro_to_Open_edX_Dev_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91677__Intro_to_Open_edX_Dev_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91677!_Intro to Open edX Dev course card.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91677__Intro_to_Open_edX_Dev_course_card.png",
+        "import_path": ".!91677!_Intro to Open edX Dev course card.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91678_Congrats_-_Open_edX_intro__1080___608_px_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91678_Congrats_-_Open_edX_intro__1080___608_px_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91678!Congrats - Open edX intro (1080 \u00d7 608 px).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91678_Congrats_-_Open_edX_intro__1080___608_px_.png",
+        "import_path": ".!91678!Congrats - Open edX intro (1080 \u00d7 608 px).png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91680_Congrats_-_Open_edX_intro.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91680_Congrats_-_Open_edX_intro.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91680!Congrats - Open edX intro.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91680_Congrats_-_Open_edX_intro.png",
+        "import_path": ".!91680!Congrats - Open edX intro.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91687_Demo_Course_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91687_Demo_Course_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91687!Demo Course course card.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91687_Demo_Course_course_card.png",
+        "import_path": ".!91687!Demo Course course card.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91689_2a79d562b3cd0029404d770e12ccd04716c720a9__1_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91689_2a79d562b3cd0029404d770e12ccd04716c720a9__1_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91689!2a79d562b3cd0029404d770e12ccd04716c720a9 (1).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91689_2a79d562b3cd0029404d770e12ccd04716c720a9__1_.png",
+        "import_path": ".!91689!2a79d562b3cd0029404d770e12ccd04716c720a9 (1).png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91690_curly_headshot.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91690_curly_headshot.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91690!curly headshot.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91690_curly_headshot.png",
+        "import_path": ".!91690!curly headshot.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91694_Working_groups_fireworks.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91694_Working_groups_fireworks.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91694!Working groups fireworks.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91694_Working_groups_fireworks.png",
+        "import_path": ".!91694!Working groups fireworks.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91695_2a79d562b3cd0029404d770e12ccd04716c720a9__2_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91695_2a79d562b3cd0029404d770e12ccd04716c720a9__2_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91695!2a79d562b3cd0029404d770e12ccd04716c720a9 (2).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91695_2a79d562b3cd0029404d770e12ccd04716c720a9__2_.png",
+        "import_path": ".!91695!2a79d562b3cd0029404d770e12ccd04716c720a9 (2).png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91697_2a79d562b3cd0029404d770e12ccd04716c720a9__3_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91697_2a79d562b3cd0029404d770e12ccd04716c720a9__3_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91697!2a79d562b3cd0029404d770e12ccd04716c720a9 (3).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91697_2a79d562b3cd0029404d770e12ccd04716c720a9__3_.png",
+        "import_path": ".!91697!2a79d562b3cd0029404d770e12ccd04716c720a9 (3).png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91699_unnamed.jpg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91699_unnamed.jpg",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91699!unnamed.jpg",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91699_unnamed.jpg",
+        "import_path": ".!91699!unnamed.jpg",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91701_core_contributor_badge_course_image.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91701_core_contributor_badge_course_image.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91701!core contributor badge course image.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91701_core_contributor_badge_course_image.png",
+        "import_path": ".!91701!core contributor badge course image.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91702_become_a_contributor_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91702_become_a_contributor_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91702!become a contributor!.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91702_become_a_contributor_.png",
+        "import_path": ".!91702!become a contributor!.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91704_Intro_to_Open_edX_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91704_Intro_to_Open_edX_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91704!Intro to Open edX course card.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91704_Intro_to_Open_edX_course_card.png",
+        "import_path": ".!91704!Intro to Open edX course card.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "._91705_2a79d562b3cd0029404d770e12ccd04716c720a9.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "._91705_2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": ".!91705!2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@._91705_2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+        "import_path": ".!91705!2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "2a79d562b3cd0029404d770e12ccd04716c720a9.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+        "import_path": "2a79d562b3cd0029404d770e12ccd04716c720a9.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "2a79d562b3cd0029404d770e12ccd04716c720a9-png.jpg",
+            null
+        ]
+    },
+    "2a79d562b3cd0029404d770e12ccd04716c720a9__1_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "2a79d562b3cd0029404d770e12ccd04716c720a9__1_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "2a79d562b3cd0029404d770e12ccd04716c720a9 (1).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@2a79d562b3cd0029404d770e12ccd04716c720a9__1_.png",
+        "import_path": "2a79d562b3cd0029404d770e12ccd04716c720a9 (1).png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "2a79d562b3cd0029404d770e12ccd04716c720a9__1_-png.jpg",
+            null
+        ]
+    },
+    "2a79d562b3cd0029404d770e12ccd04716c720a9__2_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "2a79d562b3cd0029404d770e12ccd04716c720a9__2_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "2a79d562b3cd0029404d770e12ccd04716c720a9 (2).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@2a79d562b3cd0029404d770e12ccd04716c720a9__2_.png",
+        "import_path": "2a79d562b3cd0029404d770e12ccd04716c720a9 (2).png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "2a79d562b3cd0029404d770e12ccd04716c720a9__2_-png.jpg",
+            null
+        ]
+    },
+    "2a79d562b3cd0029404d770e12ccd04716c720a9__3_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "2a79d562b3cd0029404d770e12ccd04716c720a9__3_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "2a79d562b3cd0029404d770e12ccd04716c720a9 (3).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@2a79d562b3cd0029404d770e12ccd04716c720a9__3_.png",
+        "import_path": "2a79d562b3cd0029404d770e12ccd04716c720a9 (3).png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "2a79d562b3cd0029404d770e12ccd04716c720a9__3_-png.jpg",
+            null
+        ]
+    },
+    "Congrats_-_Open_edX_intro.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "Congrats_-_Open_edX_intro.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "Congrats - Open edX intro.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@Congrats_-_Open_edX_intro.png",
+        "import_path": "Congrats - Open edX intro.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "Congrats_-_Open_edX_intro-png.jpg",
+            null
+        ]
+    },
+    "Congrats_-_Open_edX_intro__1080___608_px_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "Congrats_-_Open_edX_intro__1080___608_px_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "Congrats - Open edX intro (1080 \u00d7 608 px).png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@Congrats_-_Open_edX_intro__1080___608_px_.png",
+        "import_path": "Congrats - Open edX intro (1080 \u00d7 608 px).png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "Congrats_-_Open_edX_intro__1080___608_px_-png.jpg",
+            null
+        ]
+    },
+    "Demo_Course_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "Demo_Course_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "Demo Course course card.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@Demo_Course_course_card.png",
+        "import_path": "Demo Course course card.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "Demo_Course_course_card-png.jpg",
+            null
+        ]
+    },
+    "Intro_to_Open_edX_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "Intro_to_Open_edX_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "Intro to Open edX course card.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@Intro_to_Open_edX_course_card.png",
+        "import_path": "Intro to Open edX course card.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "Intro_to_Open_edX_course_card-png.jpg",
+            null
+        ]
+    },
+    "Open-edX-horz-GARNETELM.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "Open-edX-horz-GARNETELM.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "Open-edX-horz-GARNETELM.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@Open-edX-horz-GARNETELM.png",
+        "import_path": "Open-edX-horz-GARNETELM.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "Open-edX-horz-GARNETELM-png.jpg",
+            null
+        ]
+    },
+    "Open_edX_Named_Releases.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "Open_edX_Named_Releases.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "Open edX Named Releases.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@Open_edX_Named_Releases.png",
+        "import_path": "Open edX Named Releases.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "Open_edX_Named_Releases-png.jpg",
+            null
+        ]
+    },
+    "Working_groups_fireworks.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "Working_groups_fireworks.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "Working groups fireworks.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@Working_groups_fireworks.png",
+        "import_path": "Working groups fireworks.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "Working_groups_fireworks-png.jpg",
+            null
+        ]
+    },
+    "_Intro_to_Open_edX_Dev_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "_Intro_to_Open_edX_Dev_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "_Intro to Open edX Dev course card.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@_Intro_to_Open_edX_Dev_course_card.png",
+        "import_path": "_Intro to Open edX Dev course card.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "_Intro_to_Open_edX_Dev_course_card-png.jpg",
+            null
+        ]
+    },
+    "become_a_contributor_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "become_a_contributor_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "become a contributor!.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@become_a_contributor_.png",
+        "import_path": "become a contributor!.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "become_a_contributor_-png.jpg",
+            null
+        ]
+    },
+    "core_contributor_badge_course_image.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "core_contributor_badge_course_image.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "core contributor badge course image.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@core_contributor_badge_course_image.png",
+        "import_path": "core contributor badge course image.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "core_contributor_badge_course_image-png.jpg",
+            null
+        ]
+    },
+    "curly_headshot.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "curly_headshot.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "curly headshot.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@curly_headshot.png",
+        "import_path": "curly headshot.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "curly_headshot-png.jpg",
+            null
+        ]
+    },
+    "jorge_londono.jpeg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "jorge_londono.jpeg",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "jorge_londono.jpeg",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@jorge_londono.jpeg",
+        "import_path": "jorge_londono.jpeg",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "jorge_londono-jpeg.jpg",
+            null
+        ]
+    },
+    "maria_grimaldi.jpeg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "maria_grimaldi.jpeg",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "maria_grimaldi.jpeg",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@maria_grimaldi.jpeg",
+        "import_path": "maria_grimaldi.jpeg",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "maria_grimaldi-jpeg.jpg",
+            null
+        ]
+    },
+    "oep-57-simplified-visual.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "oep-57-simplified-visual.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "oep-57-simplified-visual.png",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@oep-57-simplified-visual.png",
+        "import_path": "oep-57-simplified-visual.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "oep-57-simplified-visual-png.jpg",
+            null
+        ]
+    },
+    "photocircle00072.jpg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "photocircle00072.jpg",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "photocircle00072.jpg",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@photocircle00072.jpg",
+        "import_path": "photocircle00072.jpg",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "photocircle00072.jpg",
+            null
+        ]
+    },
+    "unnamed.jpg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX101",
+            "name": "unnamed.jpg",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2023",
+            "tag": "c4x"
+        },
+        "displayname": "unnamed.jpg",
+        "filename": "asset-v1:OpenedX+OEX101+2023+type@asset+block@unnamed.jpg",
+        "import_path": "unnamed.jpg",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX101",
+            "thumbnail",
+            "unnamed.jpg",
+            null
+        ]
+    }
+}

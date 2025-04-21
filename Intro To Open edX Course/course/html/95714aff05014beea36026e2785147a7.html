@@ -1,0 +1,22 @@
+<p>The following video is a presentation given by Feanil Patel (Axim Software Architect) that will help you understand the overall technology stack of the Open edX platform.</p>
+<p></p>
+<p>Here are some quick notes about what you'll find in this video. Reading it before checking the architecture video would be helpful so you can follow along with the video better.</p>
+<h4>Tech stack</h4>
+<ul>
+<li>The Open edX platform is mainly built with Django/Python REST for backend services, react micro-frontends, and legacy server-rendered templates for frontend.</li>
+<li>MySQL / MongoDB for persistent storage.</li>
+<li>Elasticsearch for searching.</li>
+<li>Memcached for caching.</li>
+<li>Redis for asynchronous jobs queue.</li>
+</ul>
+<h4>Platform layout</h4>
+<ul>
+<li>While the <span class="highlighted">platform</span> contains many services such as MFEs and libraries, the core of the <span class="highlighted">platform</span> lives in the <a class="reference external" href="https://github.com/openedx/edx-platform">edx-platform</a> and <cite>frontend-platform</cite> repositories.</li>
+<li>MFEs live in different repositories across the openedx organization, while some libraries live within the edx-platform repository.</li>
+</ul>
+<h4>Extensions</h4>
+<ul>
+<li>Besides the platform layout previously mentioned, there are a number of other services which enhance the platform core. Eg., ecommerce or discovery services. Those projects are often found under the openedx organization.</li>
+</ul>
+<p>For a more detailed explanation, please refer to the <a href="https://docs.openedx.org/en/latest/developers/concepts/platform_overview.html" target="[object Object]">Open edX Documentation: Platform overview</a>. This section serves as an introduction to the project.</p>
+<p></p>
