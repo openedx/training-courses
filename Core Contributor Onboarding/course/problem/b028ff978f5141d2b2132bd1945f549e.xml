@@ -1,0 +1,55 @@
+<problem display_name="Pull Request Quiz" markdown="Please look through the following questions about pull request reviews.&#10;&#10;&gt;&gt;Can you review a pull request that someone else is reviewing?&lt;&lt;&#10;&#10;(x) Yes&#10;( ) No&#10;&#10;[explanation]&#10;Providing your expert knowledge is always useful, even if someone else also is. Two heads are better than one!&#10;[explanation]&#10;&#10;&gt;&gt;Can you review PRs from 2U?&lt;&lt;&#10;&#10;(x) Yes&#10;( ) No&#10;&#10;[explanation]&#10;Here's another case where your expert knowledge is welcome. You shouldn't feel obligated to review 2U PRs, but if something piques your interest you should feel free to do so.&#10;[explanation]&#10;&#10;&gt;&gt;Can you drop in and review something your weren't tagged on?&lt;&lt;&#10;&#10;(x) Yes&#10;( ) No&#10;&#10;[explanation]&#10;Again... your expert knowledge is needed! And again, you shouldn't feel obligated to review additional PRs but if you're interested in one, jump on in.&#10;[explanation]&#10;&#10;&gt;&gt;Should you review PRs for repos you aren't a Core Contributor for?&lt;&lt;&#10;&#10;(x) Yes&#10;( ) No&#10;&#10;[explanation]&#10;Reviewing PRs and making contributions to repos you're not a Core Contributor for is a great way to become a Core Contributor on those repos in the future!&#10;[explanation]&#10;">
+  <p>Please look through the following questions about pull request reviews.</p>
+  <label>Can you review a pull request that someone else is reviewing?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">Yes</choice>
+      <choice correct="false">No</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Providing your expert knowledge is always useful, even if someone else also is. Two heads are better than one!</p>
+    </div>
+  </solution>
+  <label>Can you review PRs from 2U?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">Yes</choice>
+      <choice correct="false">No</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Here's another case where your expert knowledge is welcome. You shouldn't feel obligated to review 2U PRs, but if something piques your interest you should feel free to do so.</p>
+    </div>
+  </solution>
+  <label>Can you drop in and review something your weren't tagged on?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">Yes</choice>
+      <choice correct="false">No</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Again... your expert knowledge is needed! And again, you shouldn't feel obligated to review additional PRs but if you're interested in one, jump on in.</p>
+    </div>
+  </solution>
+  <label>Should you review PRs for repos you aren't a Core Contributor for?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">Yes</choice>
+      <choice correct="false">No</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Reviewing PRs and making contributions to repos you're not a Core Contributor for is a great way to become a Core Contributor on those repos in the future!</p>
+    </div>
+  </solution>
+</problem>

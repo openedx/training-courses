@@ -1,0 +1,12 @@
+<problem display_name="Ensure Your Write Access is Set" markdown="null">
+  <multiplechoiceresponse>
+    <p>File a <a href="https://github.com/openedx/axim-engineering/issues/new/choose">Axim Access/Config GitHub request</a> for adding access for yourself for whichever repo(s) you should get access to. Include a link to your nomination thread and tag the CC who nominated you.</p>
+    <p>Once you've received confirmation that your access is set, please visit each repository you were nominated to be a Core Contributor for and ensure you have write access. This is easy to do by navigating to any open PR and checking that the "merge" button is visible underneath the automated test check reporting.</p>
+    <label>I have done this</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">I'll do it later</choice>
+      <choice correct="true">Yes</choice>
+      <choice correct="false">I'll never do it</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

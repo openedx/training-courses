@@ -1,0 +1,170 @@
+{
+    "blob_happy.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "NewCC",
+            "name": "blob_happy.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "blob_happy.png",
+        "filename": "asset-v1:OpenedX+NewCC+2024+type@asset+block@blob_happy.png",
+        "import_path": "blob_happy.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "NewCC",
+            "thumbnail",
+            "blob_happy-png.jpg",
+            null
+        ]
+    },
+    "core_contributor_badge__1_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "NewCC",
+            "name": "core_contributor_badge__1_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "core contributor badge (1).png",
+        "filename": "asset-v1:OpenedX+NewCC+2024+type@asset+block@core_contributor_badge__1_.png",
+        "import_path": "core contributor badge (1).png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "NewCC",
+            "thumbnail",
+            "core_contributor_badge__1_-png.jpg",
+            null
+        ]
+    },
+    "core_contributor_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "NewCC",
+            "name": "core_contributor_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "core contributor course card.png",
+        "filename": "asset-v1:OpenedX+NewCC+2024+type@asset+block@core_contributor_course_card.png",
+        "import_path": "core contributor course card.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "NewCC",
+            "thumbnail",
+            "core_contributor_course_card-png.jpg",
+            null
+        ]
+    },
+    "core_contributor_course_card__1_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "NewCC",
+            "name": "core_contributor_course_card__1_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "core contributor course card (1).png",
+        "filename": "asset-v1:OpenedX+NewCC+2024+type@asset+block@core_contributor_course_card__1_.png",
+        "import_path": "core contributor course card (1).png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "NewCC",
+            "thumbnail",
+            "core_contributor_course_card__1_-png.jpg",
+            null
+        ]
+    },
+    "percy-cowboy-square.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "NewCC",
+            "name": "percy-cowboy-square.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "percy-cowboy-square.png",
+        "filename": "asset-v1:OpenedX+NewCC+2024+type@asset+block@percy-cowboy-square.png",
+        "import_path": "percy-cowboy-square.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "NewCC",
+            "thumbnail",
+            "percy-cowboy-square-png.jpg",
+            null
+        ]
+    },
+    "rupert.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "NewCC",
+            "name": "rupert.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "rupert.png",
+        "filename": "asset-v1:OpenedX+NewCC+2024+type@asset+block@rupert.png",
+        "import_path": "rupert.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "NewCC",
+            "thumbnail",
+            "rupert-png.jpg",
+            null
+        ]
+    },
+    "simon-square.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "NewCC",
+            "name": "simon-square.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "simon-square.png",
+        "filename": "asset-v1:OpenedX+NewCC+2024+type@asset+block@simon-square.png",
+        "import_path": "simon-square.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "NewCC",
+            "thumbnail",
+            "simon-square-png.jpg",
+            null
+        ]
+    }
+}

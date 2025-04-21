@@ -1,0 +1,21 @@
+<problem display_name="CC Work Types" markdown="We often get questions about which types of work count as Core Contributor work. There is admittedly a blurry line at times, but often it is very clear.&#10;&#10;&gt;&gt;Which of the following would count as valid Core Contributor hours? &lt;&lt;&#10;&#10;[x] Doing prep work for a Working Group meeting&#10;[x] Attending a Working Group meeting, or catching up on a meeting (via recording or notes) if you can't attend synchronously&#10;[x] Performing follow-up work from a Working Group meeting&#10;[ ] Writing code for my company's client&#10;[x] Writing code that is being submitted upstream&#10;[ ] Meetings within my company's team about projects our company is working on&#10;[x] Answering questions on the Open edX forums&#10;[ ] Giving a tech talk to my team&#10;[x] Recording a tech talk on a topic relevant to some part of the community, and posting it for the greater community to see&#10;[x] 1-1/synchronous collaboration time with other community members on work you're doing together&#10;[ ] Performing code review for pull requests in your company's forks of the Open edX repositories&#10;[x] Performing code review for pull requests in the upstream openedx/ org github repositories for repos you're a core contributor on&#10;[x] Performing code review for pull requests in the upstream openedx/ org github repositories for repos you're not a core contributor on&#10;">
+  <choiceresponse>
+    <p>We often get questions about which types of work count as Core Contributor work. There is admittedly a blurry line at times, but often it is very clear.</p>
+    <label>Which of the following would count as valid Core Contributor hours? </label>
+    <checkboxgroup>
+      <choice correct="true">Doing prep work for a Working Group meeting</choice>
+      <choice correct="true">Attending a Working Group meeting, or catching up on a meeting (via recording or notes) if you can't attend synchronously</choice>
+      <choice correct="true">Performing follow-up work from a Working Group meeting</choice>
+      <choice correct="false">Writing code for my company's client</choice>
+      <choice correct="true">Writing code that is being submitted upstream</choice>
+      <choice correct="false">Meetings within my company's team about projects our company is working on</choice>
+      <choice correct="true">Answering questions on the Open edX forums</choice>
+      <choice correct="false">Giving a tech talk to my team</choice>
+      <choice correct="true">Recording a tech talk on a topic relevant to some part of the community, and posting it for the greater community to see</choice>
+      <choice correct="true">1-1/synchronous collaboration time with other community members on work you're doing together</choice>
+      <choice correct="false">Performing code review for pull requests in your company's forks of the Open edX repositories</choice>
+      <choice correct="true">Performing code review for pull requests in the upstream openedx/ org github repositories for repos you're a core contributor on</choice>
+      <choice correct="true">Performing code review for pull requests in the upstream openedx/ org github repositories for repos you're not a core contributor on</choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

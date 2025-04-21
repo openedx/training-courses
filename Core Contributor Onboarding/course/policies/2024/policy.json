@@ -1,0 +1,66 @@
+{
+    "course/2024": {
+        "advanced_modules": [
+            "survey"
+        ],
+        "catalog_visibility": "both",
+        "cert_html_view_enabled": true,
+        "course_image": "core contributor course card (1).png",
+        "course_visibility": "private",
+        "days_early_for_beta": 365.0,
+        "discussion_topics": {
+            "General": {
+                "id": "course"
+            }
+        },
+        "display_name": "Core Contributor Onboarding",
+        "instructor_info": {
+            "instructors": []
+        },
+        "invitation_only": true,
+        "language": "en",
+        "learning_info": [],
+        "minimum_grade_credit": 0.8,
+        "self_paced": true,
+        "start": "2023-04-18T00:00:00Z",
+        "tabs": [
+            {
+                "course_staff_only": false,
+                "name": "Course",
+                "type": "courseware"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Textbooks",
+                "type": "textbooks"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Discussion",
+                "type": "discussion"
+            },
+            {
+                "course_staff_only": false,
+                "is_hidden": true,
+                "name": "Wiki",
+                "type": "wiki"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Progress",
+                "type": "progress"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Dates",
+                "type": "dates"
+            }
+        ],
+        "xml_attributes": {
+            "filename": [
+                "course/2023.xml",
+                "course/2023.xml"
+            ]
+        }
+    }
+}
