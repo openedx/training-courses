@@ -1,0 +1,9 @@
+<course license="creative-commons: ver=4.0 BY NC SA" catalog_visibility="both" cert_html_view_enabled="true" certificates_display_behavior="early_no_info" course_image="Intro to Open edX course card.png" course_visibility="public_outline" days_early_for_beta="100.0" display_name="Intro to the Open edX Project &amp; Contributing" enrollment_start="2023-05-22T00:00:00Z" instructor_info="{&quot;instructors&quot;: []}" invitation_only="false" language="en" learning_info="[]" self_paced="true" start="2023-05-30T00:00:00Z">
+  <chapter url_name="5428e9cb82df4a40a4abe4bd3f35c215"/>
+  <chapter url_name="349c8520fd8c4095ab3836531edaabb0"/>
+  <chapter url_name="e89edf7cb15f4b75ba5da7b0d96d9b05"/>
+  <chapter url_name="593f0b01bbc84e3ebc1871d0c0157b48"/>
+  <chapter url_name="84cf0496b029497e9c153e03277a25c6"/>
+  <chapter url_name="7c54f184ab084e468e1ad779242e53ed"/>
+  <wiki slug="OpenedX.OEX101.2023"/>
+</course>

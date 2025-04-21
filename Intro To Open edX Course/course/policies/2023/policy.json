@@ -1,0 +1,64 @@
+{
+    "course/2023": {
+        "catalog_visibility": "both",
+        "cert_html_view_enabled": true,
+        "certificates_display_behavior": "early_no_info",
+        "course_image": "Intro to Open edX course card.png",
+        "course_visibility": "public_outline",
+        "days_early_for_beta": 100.0,
+        "discussion_topics": {
+            "General": {
+                "id": "course"
+            }
+        },
+        "display_name": "Intro to the Open edX Project & Contributing",
+        "enrollment_start": "2023-05-22T00:00:00Z",
+        "instructor_info": {
+            "instructors": []
+        },
+        "invitation_only": false,
+        "language": "en",
+        "learning_info": [],
+        "self_paced": true,
+        "start": "2023-05-30T00:00:00Z",
+        "tabs": [
+            {
+                "course_staff_only": false,
+                "name": "Course",
+                "type": "courseware"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Textbooks",
+                "type": "textbooks"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Discussion",
+                "type": "discussion"
+            },
+            {
+                "course_staff_only": false,
+                "is_hidden": true,
+                "name": "Wiki",
+                "type": "wiki"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Progress",
+                "type": "progress"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Dates",
+                "type": "dates"
+            }
+        ],
+        "xml_attributes": {
+            "filename": [
+                "course/2023.xml",
+                "course/2023.xml"
+            ]
+        }
+    }
+}

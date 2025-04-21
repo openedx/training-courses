@@ -1,0 +1,13 @@
+<problem display_name="Contribution Checklist" markdown="null" show_reset_button="true" showanswer="always">
+  <choiceresponse>
+    <label>You're ready to become an Open edX Contributor! You've learned lots of ways to contribute already, and we hope you'll take part in them! Here's some ideas we've covered throughout the course:</label>
+    <checkboxgroup>
+      <choice correct="true">Check out the <a href="https://training.openedx.org/courses/course-v1:Axim+DemoX+Demo_Course/about">Demo Course!</a></choice>
+      <choice correct="true">Introduce yourself on the forums, <a href="https://discuss.openedx.org/c/community/introductions/18">in the Introductions category</a></choice>
+      <choice correct="true">Read through the <a href="https://openedx.atlassian.net/wiki/spaces/COMM/pages/46793351/Working+Groups">list of active Working Groups</a></choice>
+      <choice correct="true">Attend a working group meeting as a guest!</choice>
+      <choice correct="true">Pick up some work from the working group of your liking and start interacting with other contributors</choice>
+      <choice correct="true">Or try solving bugs reported on our community channels!</choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>
