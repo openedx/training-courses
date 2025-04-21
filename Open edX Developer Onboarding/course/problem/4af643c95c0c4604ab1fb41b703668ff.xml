@@ -1,0 +1,54 @@
+<problem display_name="Multiple Choice" markdown="&gt;&gt;1. Software that is free to use and modify is called what?&lt;&lt;&#10;[[ &#10;Commercial software&#10;(open-source software)&#10;closed-source software&#10;]]&#10;&#10;&gt;&gt;2. Which 2 licenses do the Open edX project use?&lt;&lt;&#10;[x] AGPLv3 {{Selected: Correct, AGPLv3 is one of the licenses the Open edX project uses.}}&#10;[!] MIT License {{Selected: Sorry, MIT License is not correct, try again.}}&#10;[ ] BSD license {{Selected: Sorry, BSD license is not correct, try again.}}&#10;[x] Creative Commons licenses  {{Selected: Correct, Creative Commons is one of the licenses the Open edX project uses.}}&#10;[ ] No license {{Selected: No license is not correct try again.}}&#10;&#10;&gt;&gt;3. What knowledge and systems requirements do you need to work on Open edX coding? Pick 2.&lt;&lt;&#10;[x] basics of coding knowledge of at least one programming language {{Selected: Correct! To be successful in this course you will need to know the basics of coding.}}&#10;[x] computer running Mac OSX (Intel or Apple silicon) or a Linux distribution. {{Selected: Correct! Having a Mac OsX or Linux operating system is crucial for this course.}}&#10;[!] In depth knowledge of the Open Source Philosophy {{Selected: Incorrect, you don’t need in-depth knowledge on the Open Source Philosophy. If you would like to learn more take the course Open Source Master Class.}}&#10;&#10;&gt;&gt;4. What concepts will be taught in this course?&lt;&lt;&#10;[x] Introduction to the technical architecture of the Open edX platform. {{Selected: Correct! We will be covering technical architecture in this course.}}&#10;[x] how to create and run a development environment. {{Selected: Correct! We will be covering development environments in this course.}}&#10;[x] The steps to deploy and run your own Open edX instance. {{Selected: Correct! We will be covering deploying an Open edX instance in this course.}}&#10;[x] How the development on the Open edX project is conducted. {{Selected: Correct! We will be covering how development is conducted  in this course.}}&#10;[x] How to contribute your code back to the main project {{Selected: Correct! We will be covering Open edX project contributions in this course.}}&#10;[!] In depth introduction to the Open edX project - including project history, project context, and an overview of the different roles for Core Contributors. {{Selected: Incorrect, you can find this information in the course Intro to the Open edX Project and Contributing.}}&#10;[ ]  Programming concepts and one or more programming languages. {{Selected: Incorrect, we assume you know programming concepts and languages before you take this course. In Module 6: Reference Material, Tutorials and How-Tos, we provide resources for getting up to speed with our primary languages, frameworks, and technologies.)&#10;&#10;" showanswer="" submission_wait_seconds="0" weight="1.0">
+  <label>1. Software that is free to use and modify is called what?</label>
+  <optionresponse>
+    <optioninput>
+      <option correct="False">Commercial software</option>
+      <option correct="True">Open-source software</option>
+      <option correct="False">Closed-source software</option>
+    </optioninput>
+  </optionresponse>
+  <label>2. Which 2 licenses do the Open edX project use?</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">AGPLv3
+      <choicehint selected="true">Correct, AGPLv3 is one of the licenses the Open edX project uses.</choicehint></choice>
+      <choice correct="false">MIT License
+      <choicehint selected="true">Sorry, MIT License is not correct, try again.</choicehint></choice>
+      <choice correct="false">BSD license
+      <choicehint selected="true">Sorry, BSD license is not correct, try again.</choicehint></choice>
+      <choice correct="true">Creative Commons licenses
+      <choicehint selected="true">Correct, Creative Commons is one of the licenses the Open edX project uses.</choicehint></choice>
+      <choice correct="false">No license
+      <choicehint selected="true">No license is not correct try again.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>3. What knowledge and systems requirements do you need to work on Open edX coding? (Select 2)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Basics of coding knowledge of at least one programming language.
+      <choicehint selected="true">Correct! To be successful in this course you will need to know the basics of coding.</choicehint></choice>
+      <choice correct="true">Computer running Mac OSX (Intel or Apple silicon) or a Linux distribution.
+      <choicehint selected="true">Correct! Having a Mac OsX or Linux operating system is crucial for this course.</choicehint></choice>
+      <choice correct="false">In depth knowledge of the Open Source Philosophy.
+      <choicehint selected="true">Incorrect, you don’t need in-depth knowledge on the Open Source Philosophy. If you would like to learn more take the course Open Source Master Class.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>4. What concepts will be taught in this course? (Select 5)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Introduction to the technical architecture of the Open edX platform.
+      <choicehint selected="true">Correct! We will be covering technical architecture in this course.</choicehint></choice>
+      <choice correct="true">How to create and run a development environment.
+      <choicehint selected="true">Correct! We will be covering development environments in this course.</choicehint></choice>
+      <choice correct="true">The steps to deploy and run your own Open edX instance.
+      <choicehint selected="true">Correct! We will be covering deploying an Open edX instance in this course.</choicehint></choice>
+      <choice correct="true">How the development on the Open edX project is conducted.
+      <choicehint selected="true">Correct! We will be covering how development is conducted  in this course.</choicehint></choice>
+      <choice correct="true">How to contribute your code back to the main project.
+      <choicehint selected="true">Correct! We will be covering Open edX project contributions in this course.</choicehint></choice>
+      <choice correct="false">In depth introduction to the Open edX project - including project history, project context, and an overview of the different roles for Core Contributors.
+      <choicehint selected="true">Incorrect, you can find this information in the course Intro to the Open edX Project and Contributing.</choicehint></choice>
+      <choice correct="false">Programming concepts and one or more programming languages. <choicehint selected="true">Selected: Incorrect, we assume you know programming concepts and languages before you take this course. In Module 6: Reference Material, Tutorials and How-Tos, we provide resources for getting up to speed with our primary languages, frameworks, and technologies.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

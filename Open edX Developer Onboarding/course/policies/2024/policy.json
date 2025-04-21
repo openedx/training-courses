@@ -1,0 +1,107 @@
+{
+    "course/2024": {
+        "advanced_modules": [
+            "crowdsourcehinter",
+            "done",
+            "lti_consumer",
+            "scorm",
+            "rate",
+            "recommender",
+            "staff_graded",
+            "xblock_discussion",
+            "drag_and_drop_v2",
+            "google_drive",
+            "problem-builder",
+            "step-builder",
+            "annotatable",
+            "videoalpha",
+            "openassessment",
+            "pdf",
+            "word_cloud",
+            "poll",
+            "survey",
+            "h5pxblock",
+            "google-document",
+            "google-calendar",
+            "library_content",
+            "invideoquiz",
+            "video_iframe"
+        ],
+        "cert_html_view_enabled": true,
+        "certificates_display_behavior": "early_no_info",
+        "course_image": "_Intro to Open edX Dev course card.png",
+        "days_early_for_beta": 90.0,
+        "discussion_topics": {
+            "General": {
+                "id": "course"
+            }
+        },
+        "display_name": "Open edX Developer Onboarding",
+        "graceperiod": "",
+        "instructor_info": {
+            "instructors": []
+        },
+        "language": "en",
+        "learning_info": [],
+        "minimum_grade_credit": 0.8,
+        "self_paced": true,
+        "start": "2024-10-25T00:00:00Z",
+        "tabs": [
+            {
+                "course_staff_only": false,
+                "name": "Course",
+                "type": "courseware"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Progress",
+                "type": "progress"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Dates",
+                "type": "dates"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Discussion",
+                "type": "discussion"
+            },
+            {
+                "course_staff_only": false,
+                "is_hidden": true,
+                "name": "Wiki",
+                "type": "wiki"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Textbooks",
+                "type": "textbooks"
+            }
+        ],
+        "user_partitions": [
+            {
+                "active": true,
+                "description": "The groups in this configuration can be mapped to cohorts in the Instructor Dashboard.",
+                "groups": [
+                    {
+                        "id": 646227527,
+                        "name": "Staff Only",
+                        "version": 1
+                    }
+                ],
+                "id": 710224025,
+                "name": "Content Groups",
+                "parameters": {},
+                "scheme": "cohort",
+                "version": 3
+            }
+        ],
+        "xml_attributes": {
+            "filename": [
+                "course/2023.xml",
+                "course/2023.xml"
+            ]
+        }
+    }
+}

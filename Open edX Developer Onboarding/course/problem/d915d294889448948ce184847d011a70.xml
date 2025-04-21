@@ -1,0 +1,20 @@
+<problem display_name="Before Moving on" markdown="&gt;&gt;I have checked with my employer to see if I am covered under their CLA:&lt;&lt;&#10;(x) yes {{Thank-you!}}&#10;() no {{Wrong, please check with your employer before submitting.}}&#10;&#10;&gt;&gt;If I am not under my employer’s CLA, I have submitted my individual CLA:&lt;&lt;&#10;[x] yes {{selected: Thank-you!}}&#10;[ ] no {{selected: Please submit your individual CLA.}}&#10;[x] I am covered by my employer {{selected: Thank-you!}}&#10;&#10;">
+  <label>I have checked with my employer to see if I am covered under their CLA:</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">yes <choicehint>Thank-you!</choicehint></choice>
+      <choice correct="false">no <choicehint>Wrong, please check with your employer before submitting.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>If I am not under my employer’s CLA, I have submitted my individual CLA:</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">yes
+      <choicehint selected="true">Thank-you!</choicehint></choice>
+      <choice correct="false">no
+      <choicehint selected="true">Please submit your individual CLA.</choicehint></choice>
+      <choice correct="true">I am covered by my employer
+      <choicehint selected="true">Thank-you!</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

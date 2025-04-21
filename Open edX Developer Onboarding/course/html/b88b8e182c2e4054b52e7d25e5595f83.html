@@ -1,0 +1,16 @@
+<p>The Open edX platform is used in many different institutions and contexts with different needs. It supports an extensive set of features that can be toggled on or off, based on the requirements of the deployment. These settings are known as “Feature Toggles” and most are <a href="https://docs.openedx.org/projects/edx-platform/en/latest/references/featuretoggles.html" target="_blank">documented in the Open edX documentation</a>. The documentation contains a description, default value, and implementation type of each feature toggle available within the Open edX platform.</p>
+<p>Feature toggles are implemented in a few different ways. The main three types are:</p>
+<ol><ol><ol>
+<li>Django Settings</li>
+<li>Toggles based on <a href="https://github.com/openedx/django-config-models" target="_blank">django-config-models</a></li>
+<li>Toggles based on <a href="https://waffle.readthedocs.io" target="_blank">Django Waffle</a></li>
+</ol></ol></ol>
+<p>We already explained how to set Django Settings when using Tutor in the previous section. The toggles based on django-config-models or Django Waffle are easier to configure because the values are stored in the database and can be updated at runtime through Django Admin.</p>
+<p><img height="100%" width="100%" src="/static/image2.png" alt="Image of Django Waffles database" /></p>
+<p></p>
+<p>Some of the toggles (denoted as “CourseWaffleFlag” in the documentation) can also be overridden on the organization or course level by creating overrides in the WAFFLE_UTILS section of the Django Admin.</p>
+<p><img height="100%" width="100%" src="/static/image1.png" alt="Image of overrides in the WAFFLE_UTILS section of the Django Admin" /></p>
+<p>Be sure to confirm the impact of specific Waffle overrides in the documentation prior to implementing them.</p>
+<p>Flags within edx-platform are <a href="https://docs.openedx.org/projects/edx-platform/en/latest/references/featuretoggles.html" target="_blank">documented on docs.openedx.org</a>. Every flag defines its implementation type, for example <strong><span style="color: #008000;"><span style="font-family: terminal, monaco;">Implementation: [‘DjangoSetting’]</span></span></strong> indicates a Django setting flag, and <span style="color: #008000;"><strong>Implementation: [‘WaffleSwitch’] </strong></span>indicates a Waffle flag.</p>
+<p>For example, the Waffle flag<a href="https://docs.openedx.org/projects/edx-platform/en/latest/references/featuretoggles.html#featuretoggle-FEATURES['ENABLE_LTI_PROVIDER']" target="_blank"> FEATURES[‘ENABLE_LTI_PROVIDER’]</a> enables the capability of your site to be used as an LTI Provider to other systems and applications.</p>
+<p>The Developer &amp; Operator Release Notes for each Named Release contain a section that details all the new flags as well as the ones being deprecated. Flags that affect code defined in other repositories can be found by inspecting their code. The <a href="https://docs.openedx.org/en/latest/site_ops/index.html" target="_blank">"Site Operators" section of the docs</a> goes into depth on the overall explanation and how-tos for each of the cases we have in the Open edX system.</p>

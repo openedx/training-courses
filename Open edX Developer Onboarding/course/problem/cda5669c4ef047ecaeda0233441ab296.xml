@@ -1,0 +1,44 @@
+<problem display_name="Check your knowledge!" markdown="Check your knowledge!&#10;&#10;&gt;&gt;1. Which of the following languages and frameworks do we primarily use?&lt;&lt;&#10;[x] Javascript  {{ selected: That’s right! The Open edX codebase uses Javascript.}}&#10;[ ] Angular {{ selected: That is not correct. The Open edX platform does not use Angular. Try again!}}&#10;[x] React {{selected: That’s right! The Open edX codebase uses React.}}&#10;[x] Python {{ selected: That’s right! The Open edX codebase uses Python.}}&#10;[ ] Flask {{ selected: That is not correct. The Open edX platform does not use Flask. Try again!}}&#10;[x] Django {{ selected: That’s right! The Open edX codebase uses Django.}}&#10;&#10;&gt;&gt;2. Which of the following database technologies do we use?&lt;&lt;&#10;[ ] OracleDB  {{ selected:That is not correct. The Open edX platform does not use OracleDB. Try again!}}&#10;[x] MongoDB  {{ selected: That’s right! The Open edX uses MongoDB.}}&#10;[ ] SQLite  {{ selected:That is not correct. The Open edX platform does not use SQLite. Try again!}}&#10;[x] MySQL  {{ selected: That’s right! The Open edX uses MySQL.}}&#10;[ ] MariaDB  {{ selected:That is not correct. The Open edX platform does not use MariaDB. Try again!}}&#10;[ ] PostgreSQL  {{ selected:That is not correct. The Open edX platform does not use PostgreSQL. Try again!}}&#10;&#10;&gt;&gt;3. True or False? If I’m running 2 different Python projects locally on my computer, using venvs won’t provide any benefit to me.&lt;&lt;&#10;( ) True {{That is not correct. Re-read the “Managing Local Development section and try again!}}&#10;(x) False {{That’s right! Venvs (or virtual environments) let you develop on different branches or repositories.}}&#10;">
+  <p>Check your knowledge!</p>
+  <label>1. Which of the following languages and frameworks do we primarily use?</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Javascript
+      <choicehint selected="true">That’s right! The Open edX codebase uses Javascript.</choicehint></choice>
+      <choice correct="false">Angular
+      <choicehint selected="true">That is not correct. The Open edX platform does not use Angular. Try again!</choicehint></choice>
+      <choice correct="true">React
+      <choicehint selected="true">That’s right! The Open edX codebase uses React.</choicehint></choice>
+      <choice correct="true">Python
+      <choicehint selected="true">That’s right! The Open edX codebase uses Python.</choicehint></choice>
+      <choice correct="false">Flask
+      <choicehint selected="true">That is not correct. The Open edX platform does not use Flask. Try again!</choicehint></choice>
+      <choice correct="true">Django
+      <choicehint selected="true">That’s right! The Open edX codebase uses Django.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>2. Which of the following database technologies do we use?</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="false">OracleDB
+      <choicehint selected="true">That is not correct. The Open edX platform does not use OracleDB. Try again!</choicehint></choice>
+      <choice correct="true">MongoDB
+      <choicehint selected="true">That’s right! The Open edX uses MongoDB.</choicehint></choice>
+      <choice correct="false">SQLite
+      <choicehint selected="true">That is not correct. The Open edX platform does not use SQLite. Try again!</choicehint></choice>
+      <choice correct="true">MySQL
+      <choicehint selected="true">That’s right! The Open edX uses MySQL.</choicehint></choice>
+      <choice correct="false">MariaDB
+      <choicehint selected="true">That is not correct. The Open edX platform does not use MariaDB. Try again!</choicehint></choice>
+      <choice correct="false">PostgreSQL
+      <choicehint selected="true">That is not correct. The Open edX platform does not use PostgreSQL. Try again!</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>3. True or False? If I’m running 2 different Python projects locally on my computer, using venvs won’t provide any benefit to me.</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True <choicehint>That is not correct. Re-read the “Managing Local Development section and try again!</choicehint></choice>
+      <choice correct="true">False <choicehint>That’s right! Venvs (or virtual environments) let you develop on different branches or repositories.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

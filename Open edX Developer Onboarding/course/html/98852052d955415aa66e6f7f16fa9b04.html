@@ -1,0 +1,36 @@
+<p><strong>2. Using the Tutor CLI to explore docker services </strong></p>
+<p>What if you want to interact with the services’ containers? You might want to execute a command in a running container:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor dev exec –help </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">Usage: tutor dev exec [OPTIONS] ARGS... </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">Run a command in a running container. This is a wrapper around `docker- compose exec`. Any option or argument passed to this command will be forwarded to docker-compose. Thus, you may use `-e` to manually define environment variables. </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">Options: </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">-h, --help Show this message and exit. </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor dev exec lms bash </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor dev exec lms ./manage.py lms shell</span></strong></div>
+<p>Or attach to a services’ logs:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor dev logs lms -f</span></strong></div>
+<p>And a lot more! Review the <a href="https://docs.tutor.edly.io/reference/cli/dev.html" target="_blank">documentation for the <span style="color: #008000;"><em>tutor dev</em></span> commands.</a></p>
+<p>Or watch this demo video: <a href="https://www.youtube.com/watch?v=-tNqbbJ-St0" target="[object Object]">Exploring Tutor dev commands</a></p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor dev –help </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">Usage: tutor dev [OPTIONS] COMMAND [ARGS]... </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">Run Open edX locally with development settings </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">Options: </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">-h, --help Show this message and exit. </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">Commands: </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">copyfrom Copy files/folders from a container directory to the local... </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">dc Direct interface to docker-compose. </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">do Run a custom job in the right container(s). </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">exec Run a command in a running container </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">launch Configure and run Open edX from scratch </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">logs View output from containers </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">reboot Reboot an existing platform </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">restart Restart some components from a running platform. </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">run Run a command in a new container </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">start Run all or a selection of services. </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">status Print status information for containers </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">stop Stop a running platform </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">upgrade Perform release-specific upgrade tasks</span></strong></div>

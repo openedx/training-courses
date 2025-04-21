@@ -1,0 +1,48 @@
+<div dir="ltr" style="caret-color: #000000; color: #000000; margin-left: 0pt;">
+<table style="border: none; width: 100%;">
+<tbody>
+<tr style="height: 0pt;">
+<td style="border-width: 3pt; border-color: #984499; vertical-align: top; background-color: #984499; padding: 5pt;">
+<h4 dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt; text-align: center;"><span style="color: #ffffff; background-color: transparent; font-weight: bold;">To Learn More: </span></h4>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td style="border-width: 3pt; border-color: #984499; vertical-align: top; padding: 5pt;">
+<p>Another way you can add volumes to your services is by creating a docker-compose override file! Why? These files let us modify how we provision Open edX services, including mounting volumes! This is how you can do it:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">cd env/dev </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">touch docker-compose.override.yml</span></strong></span></div>
+<p>There, you can override your services definitions. Since we’re adding new volumes, we add the following to our override file:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">version: "3.7" </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">services: </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;"><service>&lt;SERVICES&gt;: </service></span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 60px;"><strong><span style="color: #008000; font-family: terminal, monaco;"><service>volumes: </service></span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 60px;"><strong><span style="color: #008000; font-family: terminal, monaco;"><service>- &lt;HOST_PATH_FROM_CURRENT_FOLDER&gt;:&lt;CONTAINER_ABSOLUTE_PATH&gt;</service></span></strong></div>
+<p>Save and start your services! Here are a few examples on how you could use the compose override: - To mount a virtual environment:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">version: "3.7" </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">services: </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">lms: </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">volumes: </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 60px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">- ./venv-openedx:/openedx/venv </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">cms: </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">volumes: </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 60px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">- ./venv-openedx:/openedx/venv </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">lms-worker: </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">volumes: </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 60px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">- ./venv-openedx:/openedx/venv </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">cms-worker: </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">volumes: </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 60px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">- ./venv-openedx:/openedx/venv</span></strong></span></div>
+<p>To override the container commands:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">version: "3.7" </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">services: </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">lms: </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">command: bash -c 'while true; do python /openedx/edx-platform/manage.py lms runserver 0.0.0.0:8000; sleep 2; done'</span></strong></div>
+<p>And more! If you want to know more about tutor development, visit the <a href="https://docs.tutor.overhang.io/dev.html" target="_blank" rel="noopener">official documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4></h4>
+<h4>Click next to learn about navigating through our local installation.</h4>
+<p></p>

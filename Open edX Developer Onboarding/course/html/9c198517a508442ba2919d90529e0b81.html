@@ -1,0 +1,16 @@
+<p>Before we get to the next module, focused on writing code, let’s review the basic standard the Open edX community has established for our codebase. As a general rule, we prefer code that is verbose and easy to understand. Yes, there are times you can do something complicated in a nested list comprehension, but please unfold it into loops that future developers can read and understand. Utilize variables with meaningful names, i.e., <span style="color: #008000; font-family: terminal, monaco;">course_key</span> rather than <span style="color: #008000; font-family: terminal, monaco;">ck</span>. Docstrings should be provided that explain both what a function does and what its arguments are. Add enough comments to explain any complicated logic or unfortunate hacks.</p>
+<p>In addition to the above, we utilize some published guidelines for each of the coding languages:</p>
+<p><strong>Python style linters</strong></p>
+<ul>
+<ul>
+<li>We use the <a href="https://pypi.python.org/pypi/pep8" target="_blank" rel="noopener">pep8</a> tool to follow <a href="http://legacy.python.org/dev/peps/pep-0008/" target="_blank" rel="noopener">PEP-8</a> guidelines.</li>
+<li>We use <a href="http://pylint.org/" target="_blank" rel="noopener">pylint</a> for static analysis and to uncover trouble spots in our code.</li>
+<li>See also: <a href="https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/style_guides/python-guidelines.html" target="_blank" rel="noopener">Python style guide</a></li>
+</ul>
+</ul>
+<p><strong>JavaScript style linter</strong></p>
+<ul>
+<ul>
+<li>We utilize <a href="https://eslint.org/" target="_blank" rel="noopener">ESLint</a>, a static code analysis tool.</li>
+</ul>
+</ul>

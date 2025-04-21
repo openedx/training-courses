@@ -1,0 +1,21 @@
+<p>Now, what if we want to explore the libraries installed in the Open edX service, contribute to the development of an existing library, or even we want to turn on our favorite intellisense tool for our mounted volume – like edx-platform? Then, we need the virtual environment used by the service. Try this:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">tutor dev copyfrom lms /openedx/venv ./venv-openedx </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">tutor mounts add lms,cms,lms-worker,cms-worker:./venv-openedx:/openedx/venv </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">tutor mounts list </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">- name: lms,cms,lms-worker,cms-worker:./venv-openedx:/openedx/venv </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">build_mounts: [] </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">compose_mounts: </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">- service: lms </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 60px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">container_path: /openedx/venv </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">- service: cms </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 60px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">container_path: /openedx/venv </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">- service: lms-worker </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 60px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">container_path: /openedx/venv </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">- service: cms-worker </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 60px;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">container_path: /openedx/venv </span></strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">tutor dev start -d</span></strong></span></div>
+<p>You can now modify your library after starting your services:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">code venv-openedx/lib/python3.8/site-packages/openedx_events</span></strong></div>
+<p>Modifying your library is necessary when you want to contribute to an existing library. For example, if you want to add a new definition to openedx-events, you can install it directly in the venv as shown here. Developing a new XBlock also requires installation in the venv.</p>

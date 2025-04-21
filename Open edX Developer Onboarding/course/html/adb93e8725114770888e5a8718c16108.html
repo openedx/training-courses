@@ -1,0 +1,19 @@
+<p>This section reviews some common customizations that go beyond flipping feature toggles. To install a custom XBlock (or any other custom python package) to the LMS virtual environment, you need to add it to the <strong><span style="color: #008000; font-family: terminal, monaco;">OPENEDX_EXTRA_PIP_REQUIREMENTS</span></strong><span style="font-size: 1em;"><strong> </strong>configuration variable and redeploy the instance. Let’s say we want to install the v1.12.0 tag of </span><strong><span style="color: #008000; font-family: terminal, monaco;">xblock-poll</span></strong><span style="font-size: 1em;"><strong>.</strong> First open up your Tutor config file (here, we use the </span><span style="color: #008000; font-family: terminal, monaco;">vi</span><span style="font-size: 1em;"> command line editor):</span></p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">vi “$(tutor config printroot)/config.yml”</span></strong></div>
+<p>If the <strong><span style="color: #008000; font-family: terminal, monaco;">OPENEDX_EXTRA_PIP_REQUIREMENTS</span></strong> variable isn't already present, add it, and then add the requirement to it:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">... </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">OPENEDX_EXTRA_PIP_REQUIREMENTS: </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">- </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">“git+https://github.com/open-craft/xblock-poll@v1.13.0” </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">...</span></strong></div>
+<p>You then need to rebuild the openedx image and restart Tutor:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor images build openedx </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor local restart</span></strong></div>
+<p>Finally, to make the XBlock available in a course on your instance, you need to add it to the “Advanced Module List” setting in your course’s “Advanced Settings” page in the Studio. You need to do this for every course where you want the XBlock to be available.</p>
+<p><img height="100%" width="100%" src="/static/image3.png" alt="Image of  “Advanced Module List” setting in your course’s “Advanced Settings” page in the Studio." /></p>
+<p></p>
+<p><iframe class="TOC" src="https://help.appsembler.com/article/176-how-to-enable-xblocks" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe></p>
+<style></style>
+<style></style>
+<style></style>
+<style></style>

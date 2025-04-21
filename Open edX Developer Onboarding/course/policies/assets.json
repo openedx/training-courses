@@ -1,0 +1,1592 @@
+{
+    "Convert_to_draft.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Convert_to_draft.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Convert to draft.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Convert_to_draft.png",
+        "import_path": "Convert to draft.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Convert_to_draft-png.jpg",
+            null
+        ]
+    },
+    "Course_Structure.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Course_Structure.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Course Structure.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Course_Structure.png",
+        "import_path": "Course Structure.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Course_Structure-png.jpg",
+            null
+        ]
+    },
+    "DALL_E_2024-03-29_10.59.12_-_A_creative__digital_art_piece_where_a_salmon_is_swimming_upstream__but_the_entire_scene_is_composed_of_flowing_lines_of_code._The_river__the_surroundi__1_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "DALL_E_2024-03-29_10.59.12_-_A_creative__digital_art_piece_where_a_salmon_is_swimming_upstream__but_the_entire_scene_is_composed_of_flowing_lines_of_code._The_river__the_surroundi__1_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "DALL\u00b7E 2024-03-29 10.59.12 - A creative, digital art piece where a salmon is swimming upstream, but the entire scene is composed of flowing lines of code. The river, the surroundi (1).png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@DALL_E_2024-03-29_10.59.12_-_A_creative__digital_art_piece_where_a_salmon_is_swimming_upstream__but_the_entire_scene_is_composed_of_flowing_lines_of_code._The_river__the_surroundi__1_.png",
+        "import_path": "DALL\u00b7E 2024-03-29 10.59.12 - A creative, digital art piece where a salmon is swimming upstream, but the entire scene is composed of flowing lines of code. The river, the surroundi (1).png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "DALL_E_2024-03-29_10.59.12_-_A_creative__digital_art_piece_where_a_salmon_is_swimming_upstream__but_the_entire_scene_is_composed_of_flowing_lines_of_code._The_river__the_surroundi__1_-png.jpg",
+            null
+        ]
+    },
+    "DALL_E_2024-06-04_12.11.19_-_A_digital_illustration_depicting_the_concept_of__sending_code_upstream__in_software_development._The_scene_includes_a_river_flowing_from_a_lower_plane.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "DALL_E_2024-06-04_12.11.19_-_A_digital_illustration_depicting_the_concept_of__sending_code_upstream__in_software_development._The_scene_includes_a_river_flowing_from_a_lower_plane.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "DALL\u00b7E 2024-06-04 12.11.19 - A digital illustration depicting the concept of 'sending code upstream' in software development. The scene includes a river flowing from a lower plane.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@DALL_E_2024-06-04_12.11.19_-_A_digital_illustration_depicting_the_concept_of__sending_code_upstream__in_software_development._The_scene_includes_a_river_flowing_from_a_lower_plane.png",
+        "import_path": "DALL\u00b7E 2024-06-04 12.11.19 - A digital illustration depicting the concept of 'sending code upstream' in software development. The scene includes a river flowing from a lower plane.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "DALL_E_2024-06-04_12.11.19_-_A_digital_illustration_depicting_the_concept_of__sending_code_upstream__in_software_development._The_scene_includes_a_river_flowing_from_a_lower_plane-png.jpg",
+            null
+        ]
+    },
+    "DALL_E_2024-06-04_12.12.24_-_A_salmon_swimming_upstream__depicted_as_if_it_is_made_out_of_code._The_salmon_s_body_is_composed_of_lines_of_code_and_programming_symbols__with_binary.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "DALL_E_2024-06-04_12.12.24_-_A_salmon_swimming_upstream__depicted_as_if_it_is_made_out_of_code._The_salmon_s_body_is_composed_of_lines_of_code_and_programming_symbols__with_binary.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "DALL\u00b7E 2024-06-04 12.12.24 - A salmon swimming upstream, depicted as if it is made out of code. The salmon's body is composed of lines of code and programming symbols, with binary.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@DALL_E_2024-06-04_12.12.24_-_A_salmon_swimming_upstream__depicted_as_if_it_is_made_out_of_code._The_salmon_s_body_is_composed_of_lines_of_code_and_programming_symbols__with_binary.png",
+        "import_path": "DALL\u00b7E 2024-06-04 12.12.24 - A salmon swimming upstream, depicted as if it is made out of code. The salmon's body is composed of lines of code and programming symbols, with binary.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "DALL_E_2024-06-04_12.12.24_-_A_salmon_swimming_upstream__depicted_as_if_it_is_made_out_of_code._The_salmon_s_body_is_composed_of_lines_of_code_and_programming_symbols__with_binary-png.jpg",
+            null
+        ]
+    },
+    "Demo_Course_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Demo_Course_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Demo Course course card.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Demo_Course_course_card.png",
+        "import_path": "Demo Course course card.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Demo_Course_course_card-png.jpg",
+            null
+        ]
+    },
+    "Developer_experience_Working_Group.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Developer_experience_Working_Group.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Developer experience Working Group.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Developer_experience_Working_Group.png",
+        "import_path": "Developer experience Working Group.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Developer_experience_Working_Group-png.jpg",
+            null
+        ]
+    },
+    "Discourse_example.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Discourse_example.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Discourse example.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Discourse_example.png",
+        "import_path": "Discourse example.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Discourse_example-png.jpg",
+            null
+        ]
+    },
+    "Discourse_logo.svg.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Discourse_logo.svg.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Discourse_logo.svg.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Discourse_logo.svg.png",
+        "import_path": "Discourse_logo.svg.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Discourse_logo.svg-png.jpg",
+            null
+        ]
+    },
+    "Documenting_the_Open_edX_Platform__tutorial_.pdf": {
+        "contentType": "application/pdf",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Documenting_the_Open_edX_Platform__tutorial_.pdf",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Documenting the Open edX Platform (tutorial).pdf",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Documenting_the_Open_edX_Platform__tutorial_.pdf",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "Edit_docs_on_github.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Edit_docs_on_github.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Edit docs on github.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Edit_docs_on_github.png",
+        "import_path": "Edit docs on github.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Edit_docs_on_github-png.jpg",
+            null
+        ]
+    },
+    "GitHub_Logo.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "GitHub_Logo.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "GitHub_Logo.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@GitHub_Logo.png",
+        "import_path": "GitHub_Logo.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "GitHub_Logo-png.jpg",
+            null
+        ]
+    },
+    "Managing_Local_Development_Drag_Drop.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Managing_Local_Development_Drag_Drop.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Managing Local Development Drag Drop.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Managing_Local_Development_Drag_Drop.png",
+        "import_path": "Managing Local Development Drag Drop.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Managing_Local_Development_Drag_Drop-png.jpg",
+            null
+        ]
+    },
+    "Open-source_masterclass_course_image.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Open-source_masterclass_course_image.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Open-source masterclass course image.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Open-source_masterclass_course_image.png",
+        "import_path": "Open-source masterclass course image.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Open-source_masterclass_course_image-png.jpg",
+            null
+        ]
+    },
+    "Open_edX_Course_Run_Overview.pdf": {
+        "contentType": "application/pdf",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Open_edX_Course_Run_Overview.pdf",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Open edX Course Run Overview.pdf",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Open_edX_Course_Run_Overview.pdf",
+        "import_path": "Open edX Course Run Overview.pdf",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "Open_edX_Named_Releases.svg": {
+        "contentType": "image/svg+xml",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Open_edX_Named_Releases.svg",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Open edX Named Releases.svg",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Open_edX_Named_Releases.svg",
+        "import_path": "Open edX Named Releases.svg",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Open_edX_Named_Releases.svg",
+            null
+        ]
+    },
+    "Open_edX_Technical_Architecture.pdf": {
+        "contentType": "application/pdf",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Open_edX_Technical_Architecture.pdf",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Open edX Technical Architecture.pdf",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Open_edX_Technical_Architecture.pdf",
+        "import_path": "Open edX Technical Architecture.pdf",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "Open_edX_Technical_Overview.pdf": {
+        "contentType": "application/pdf",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Open_edX_Technical_Overview.pdf",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Open edX Technical Overview.pdf",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Open_edX_Technical_Overview.pdf",
+        "import_path": "Open edX Technical Overview.pdf",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "Open_edX_Technical_System.pdf": {
+        "contentType": "application/pdf",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Open_edX_Technical_System.pdf",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Open edX Technical System.pdf",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Open_edX_Technical_System.pdf",
+        "import_path": "Open edX Technical System.pdf",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "Open_edX_Technology_overview.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Open_edX_Technology_overview.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Open edX Technology overview.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Open_edX_Technology_overview.png",
+        "import_path": "Open edX Technology overview.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Open_edX_Technology_overview-png.jpg",
+            null
+        ]
+    },
+    "Open_edX_coding.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Open_edX_coding.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Open edX coding.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Open_edX_coding.png",
+        "import_path": "Open edX coding.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Open_edX_coding-png.jpg",
+            null
+        ]
+    },
+    "PullRequestDragNDrop.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "PullRequestDragNDrop.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "PullRequestDragNDrop.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@PullRequestDragNDrop.png",
+        "import_path": "PullRequestDragNDrop.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "PullRequestDragNDrop-png.jpg",
+            null
+        ]
+    },
+    "SLA-Logo-Mark-RGB.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "SLA-Logo-Mark-RGB.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "SLA-Logo-Mark-RGB.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@SLA-Logo-Mark-RGB.png",
+        "import_path": "SLA-Logo-Mark-RGB.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "SLA-Logo-Mark-RGB-png.jpg",
+            null
+        ]
+    },
+    "SSOL_Course_Graphics_Icons-Make_Better_Time_Estimates.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "SSOL_Course_Graphics_Icons-Make_Better_Time_Estimates.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "SSOL Course Graphics Icons-Make Better Time Estimates.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@SSOL_Course_Graphics_Icons-Make_Better_Time_Estimates.png",
+        "import_path": "SSOL Course Graphics Icons-Make Better Time Estimates.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "SSOL_Course_Graphics_Icons-Make_Better_Time_Estimates-png.jpg",
+            null
+        ]
+    },
+    "SSOL_Course_Graphics_Icons-Take_good_notes.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "SSOL_Course_Graphics_Icons-Take_good_notes.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "SSOL Course Graphics Icons-Take good notes.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@SSOL_Course_Graphics_Icons-Take_good_notes.png",
+        "import_path": "SSOL Course Graphics Icons-Take good notes.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "SSOL_Course_Graphics_Icons-Take_good_notes-png.jpg",
+            null
+        ]
+    },
+    "Screen_Shot_2024-03-30_at_4.39.47_PM.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Screen_Shot_2024-03-30_at_4.39.47_PM.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Screen Shot 2024-03-30 at 4.39.47 PM.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Screen_Shot_2024-03-30_at_4.39.47_PM.png",
+        "import_path": "Screen Shot 2024-03-30 at 4.39.47 PM.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Screen_Shot_2024-03-30_at_4.39.47_PM-png.jpg",
+            null
+        ]
+    },
+    "Screen_Shot_2024-03-30_at_4.39.55_PM.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Screen_Shot_2024-03-30_at_4.39.55_PM.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Screen Shot 2024-03-30 at 4.39.55 PM.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Screen_Shot_2024-03-30_at_4.39.55_PM.png",
+        "import_path": "Screen Shot 2024-03-30 at 4.39.55 PM.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Screen_Shot_2024-03-30_at_4.39.55_PM-png.jpg",
+            null
+        ]
+    },
+    "Screenshot_2024-06-02_at_17.09.31.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Screenshot_2024-06-02_at_17.09.31.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Screenshot 2024-06-02 at 17.09.31.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Screenshot_2024-06-02_at_17.09.31.png",
+        "import_path": "Screenshot 2024-06-02 at 17.09.31.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Screenshot_2024-06-02_at_17.09.31-png.jpg",
+            null
+        ]
+    },
+    "Screenshot_2024-06-02_at_17.14.42.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Screenshot_2024-06-02_at_17.14.42.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Screenshot 2024-06-02 at 17.14.42.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Screenshot_2024-06-02_at_17.14.42.png",
+        "import_path": "Screenshot 2024-06-02 at 17.14.42.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Screenshot_2024-06-02_at_17.14.42-png.jpg",
+            null
+        ]
+    },
+    "Stop_sign.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Stop_sign.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Stop sign.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Stop_sign.png",
+        "import_path": "Stop sign.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Stop_sign-png.jpg",
+            null
+        ]
+    },
+    "Studio.v.LMS.pdf": {
+        "contentType": "application/pdf",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Studio.v.LMS.pdf",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Studio.v.LMS.pdf",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Studio.v.LMS.pdf",
+        "import_path": "Studio.v.LMS.pdf",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "Studio_Vs_LMS__1_.jpg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "Studio_Vs_LMS__1_.jpg",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "Studio Vs LMS (1).jpg",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@Studio_Vs_LMS__1_.jpg",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "Studio_Vs_LMS__1_.jpg",
+            null
+        ]
+    },
+    "_Intro_to_Open_edX_Dev_course_card.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "_Intro_to_Open_edX_Dev_course_card.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "_Intro to Open edX Dev course card.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@_Intro_to_Open_edX_Dev_course_card.png",
+        "import_path": "_Intro to Open edX Dev course card.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "_Intro_to_Open_edX_Dev_course_card-png.jpg",
+            null
+        ]
+    },
+    "api-docs.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "api-docs.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "api-docs.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@api-docs.png",
+        "import_path": "api-docs.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "api-docs-png.jpg",
+            null
+        ]
+    },
+    "authn-mfe.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "authn-mfe.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "authn-mfe.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@authn-mfe.png",
+        "import_path": "authn-mfe.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "authn-mfe-png.jpg",
+            null
+        ]
+    },
+    "collaboration_conversation.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "collaboration_conversation.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "collaboration conversation.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@collaboration_conversation.png",
+        "import_path": "collaboration conversation.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "collaboration_conversation-png.jpg",
+            null
+        ]
+    },
+    "create-fork.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "create-fork.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "create-fork.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@create-fork.png",
+        "import_path": "create-fork.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "create-fork-png.jpg",
+            null
+        ]
+    },
+    "curly_headshot.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "curly_headshot.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "curly headshot.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@curly_headshot.png",
+        "import_path": "curly headshot.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "curly_headshot-png.jpg",
+            null
+        ]
+    },
+    "edx-platform-mfe.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "edx-platform-mfe.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "edx-platform-mfe.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@edx-platform-mfe.png",
+        "import_path": "edx-platform-mfe.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "edx-platform-mfe-png.jpg",
+            null
+        ]
+    },
+    "fork-button.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "fork-button.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "fork-button.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@fork-button.png",
+        "import_path": "fork-button.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "fork-button-png.jpg",
+            null
+        ]
+    },
+    "git-add-p.gif": {
+        "contentType": "image/gif",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "git-add-p.gif",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "git-add-p.gif",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@git-add-p.gif",
+        "import_path": "git-add-p.gif",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "git-add-p-gif.jpg",
+            null
+        ]
+    },
+    "git-diff.gif": {
+        "contentType": "image/gif",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "git-diff.gif",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "git-diff.gif",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@git-diff.gif",
+        "import_path": "git-diff.gif",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "git-diff-gif.jpg",
+            null
+        ]
+    },
+    "git-log-variations.gif": {
+        "contentType": "image/gif",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "git-log-variations.gif",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "git-log-variations.gif",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@git-log-variations.gif",
+        "import_path": "git-log-variations.gif",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "git-log-variations-gif.jpg",
+            null
+        ]
+    },
+    "git-remote-1.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "git-remote-1.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "git-remote-1.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@git-remote-1.png",
+        "import_path": "git-remote-1.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "git-remote-1-png.jpg",
+            null
+        ]
+    },
+    "git_basics_commit_push.gif": {
+        "contentType": "image/gif",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "git_basics_commit_push.gif",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "git_basics_commit_push.gif",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@git_basics_commit_push.gif",
+        "import_path": "git_basics_commit_push.gif",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "git_basics_commit_push-gif.jpg",
+            null
+        ]
+    },
+    "git_basics_git_log.gif": {
+        "contentType": "image/gif",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "git_basics_git_log.gif",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "git_basics_git_log.gif",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@git_basics_git_log.gif",
+        "import_path": "git_basics_git_log.gif",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "git_basics_git_log-gif.jpg",
+            null
+        ]
+    },
+    "git_basics_status_diff.gif": {
+        "contentType": "image/gif",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "git_basics_status_diff.gif",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "git_basics_status_diff.gif",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@git_basics_status_diff.gif",
+        "import_path": "git_basics_status_diff.gif",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "git_basics_status_diff-gif.jpg",
+            null
+        ]
+    },
+    "git_branches.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "git_branches.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "git branches.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@git_branches.png",
+        "import_path": "git branches.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "git_branches-png.jpg",
+            null
+        ]
+    },
+    "git_clone_git_remote.gif": {
+        "contentType": "image/gif",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "git_clone_git_remote.gif",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "git_clone_git_remote.gif",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@git_clone_git_remote.gif",
+        "import_path": "git_clone_git_remote.gif",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "git_clone_git_remote-gif.jpg",
+            null
+        ]
+    },
+    "github-mark.svg": {
+        "contentType": "image/svg+xml",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "github-mark.svg",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "github-mark.svg",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@github-mark.svg",
+        "import_path": "github-mark.svg",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "github-mark.svg",
+            null
+        ]
+    },
+    "image1.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "image1.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "image1.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@image1.png",
+        "import_path": "image1.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "image1-png.jpg",
+            null
+        ]
+    },
+    "image2.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "image2.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "image2.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@image2.png",
+        "import_path": "image2.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "image2-png.jpg",
+            null
+        ]
+    },
+    "image3.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "image3.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "image3.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@image3.png",
+        "import_path": "image3.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "image3-png.jpg",
+            null
+        ]
+    },
+    "lms-landpage.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "lms-landpage.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "lms-landpage.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@lms-landpage.png",
+        "import_path": "lms-landpage.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "lms-landpage-png.jpg",
+            null
+        ]
+    },
+    "oep-57-simplified-visual.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "oep-57-simplified-visual.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "oep-57-simplified-visual.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@oep-57-simplified-visual.png",
+        "import_path": "oep-57-simplified-visual.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "oep-57-simplified-visual-png.jpg",
+            null
+        ]
+    },
+    "open-edx-logo-tag.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "open-edx-logo-tag.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "open-edx-logo-tag.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@open-edx-logo-tag.png",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "open-edx-logo-tag-png.jpg",
+            null
+        ]
+    },
+    "pattern-library.gif": {
+        "contentType": "image/gif",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "pattern-library.gif",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "pattern-library.gif",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@pattern-library.gif",
+        "import_path": "pattern-library.gif",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "pattern-library-gif.jpg",
+            null
+        ]
+    },
+    "pull_request_button.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "pull_request_button.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "pull request button.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@pull_request_button.png",
+        "import_path": "pull request button.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "pull_request_button-png.jpg",
+            null
+        ]
+    },
+    "rebase_1.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "rebase_1.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "rebase 1.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@rebase_1.png",
+        "import_path": "rebase 1.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "rebase_1-png.jpg",
+            null
+        ]
+    },
+    "rebase_2.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "rebase_2.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "rebase 2.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@rebase_2.png",
+        "import_path": "rebase 2.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "rebase_2-png.jpg",
+            null
+        ]
+    },
+    "rebase_3.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "rebase_3.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "rebase 3.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@rebase_3.png",
+        "import_path": "rebase 3.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "rebase_3-png.jpg",
+            null
+        ]
+    },
+    "some_checks_were_not_successful.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "some_checks_were_not_successful.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "some checks were not successful.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@some_checks_were_not_successful.png",
+        "import_path": "some checks were not successful.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "some_checks_were_not_successful-png.jpg",
+            null
+        ]
+    },
+    "studio-landpage.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "studio-landpage.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "studio-landpage.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@studio-landpage.png",
+        "import_path": "studio-landpage.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "studio-landpage-png.jpg",
+            null
+        ]
+    },
+    "successfully_fetched_and_fast-forwarded.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "successfully_fetched_and_fast-forwarded.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "successfully fetched and fast-forwarded.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@successfully_fetched_and_fast-forwarded.png",
+        "import_path": "successfully fetched and fast-forwarded.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "successfully_fetched_and_fast-forwarded-png.jpg",
+            null
+        ]
+    },
+    "this_branch_is_out_of_date.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "this_branch_is_out_of_date.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "this branch is out of date.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@this_branch_is_out_of_date.png",
+        "import_path": "this branch is out of date.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "this_branch_is_out_of_date-png.jpg",
+            null
+        ]
+    },
+    "tutor-logo.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "tutor-logo.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "tutor-logo.png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@tutor-logo.png",
+        "import_path": "tutor-logo.png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "tutor-logo-png.jpg",
+            null
+        ]
+    },
+    "tutor_plugins__1_.gif": {
+        "contentType": "image/gif",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "tutor_plugins__1_.gif",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "tutor_plugins (1).gif",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@tutor_plugins__1_.gif",
+        "import_path": "tutor_plugins (1).gif",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "tutor_plugins__1_-gif.jpg",
+            null
+        ]
+    },
+    "unnamed__2_.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "OEX-Dev101",
+            "name": "unnamed__2_.png",
+            "org": "OpenedX",
+            "revision": null,
+            "run": "2024",
+            "tag": "c4x"
+        },
+        "displayname": "unnamed (2).png",
+        "filename": "asset-v1:OpenedX+OEX-Dev101+2024+type@asset+block@unnamed__2_.png",
+        "import_path": "unnamed (2).png",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "OpenedX",
+            "OEX-Dev101",
+            "thumbnail",
+            "unnamed__2_-png.jpg",
+            null
+        ]
+    }
+}

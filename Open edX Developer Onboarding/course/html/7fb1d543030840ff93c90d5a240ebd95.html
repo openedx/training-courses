@@ -1,0 +1,72 @@
+<p>After installing your preferred Tutor version, to provision the Open edX services, run:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor dev launch</span></strong></div>
+<p>Running this command for the first time will do a couple of things:</p>
+<ol><ol>
+<li>Generate a default config.yml which will be used to generate our environment</li>
+<li>Generate an env/ directory filled with the necessary templates to serve your Open edX installations. Tutor generates the environment by default in the default project root: <span style="color: #008000;"><span style="font-family: terminal, monaco;">~/.local/share/tutor</span>.</span> This is how the directory looks like:</li>
+</ol></ol>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">env</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> ├── apps</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── caddy</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ └── Caddyfile</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── openedx</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ ├── config</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ ├── settings</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ └── uwsgi.ini</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── permissions</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ └── setowners.sh</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ └── redis</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ └── redis.conf</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> ├── build</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── openedx</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ ├── bin</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ ├── Dockerfile</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ ├── locale</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ ├── requirements</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ ├── revisions.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ ├── settings</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ │ └── themes</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ └── permissions</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── Dockerfile</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ └── setowner.sh</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> ├── dev</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── docker-compose.jobs.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ └── docker-compose.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> ├── k8s</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── deployments.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── jobs.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── namespace.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── override.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── services.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ └── volumes.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> ├── kustomization.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> ├── local</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── docker-compose.jobs.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── docker-compose.prod.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ └── docker-compose.yml</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> ├── plugins</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ └── mfe</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ ├── apps</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> │ └── build</span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;"> └── version</span></strong></div>
+<p style="padding-left: 60px;">In the above directory:</p>
+<ul>
+<ul>
+<ul>
+<ul>
+<ul>
+<ul>
+<li>The <strong><span style="font-family: terminal, monaco; color: #008000;">apps</span></strong> directory manages the overall configurations of the installation, in any mode, local, dev or k8s – short for kubernetes.</li>
+<li>The <strong><span style="font-family: terminal, monaco; color: #008000;">build</span></strong> directory manages how to build images for the Open edX services.</li>
+<li>The <strong><span style="font-family: terminal, monaco; color: #008000;">dev|local </span></strong>directories have the necessary docker compose definitions to deploy those environments.</li>
+<li>The <strong><span style="font-family: terminal, monaco; color: #008000;">k8s </span></strong>directory has the necessary manifests to deploy a kubernetes environment.</li>
+<li>The <strong><span style="font-family: terminal, monaco; color: #008000;">plugins</span></strong> directory has the necessary definitions (configurations, docker files, etc) for tutor plugins deployment.</li>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+<p style="padding-left: 30px;">3. Build the openedx, openedx-dev and other required images, set default configurations and start and initialize services. For a more detailed step-by-step description of what happens when you run <strong><span style="color: #008000; font-family: terminal, monaco;">tutor dev launch</span></strong><span style="font-size: 1em;"> for the first time, see </span><a href="https://docs.tutor.overhang.io/dev.html#first-time-setup" target="_blank" style="font-size: 1em;">Tutor documentation: first-time setup</a><span style="font-size: 1em;">.</span></p>
+<style></style>
+<style></style>

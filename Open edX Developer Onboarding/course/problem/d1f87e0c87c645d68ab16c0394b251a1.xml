@@ -1,0 +1,191 @@
+<problem display_name="Module 4 Quiz" markdown="&gt;&gt;1. Which monolithic repository did the Open edX project originally start with?&lt;&lt;&#10;(!) frontend-app-learning  &#10;(x) edx-platform  &#10;( ) tutor  &#10;( ) frontend-app-discussions&#10;&#10;&gt;&gt;2. What is the main function of XBlocks in the Open edX platform?&lt;&lt;&#10;(!) To encapsulate frontend functionality  &#10;( ) To provide a visually consistent user experience  &#10;(x) To be modular building blocks that o power courseware that students interact with  &#10;( ) To manage repositories&#10;&#10;&gt;&gt;3. Which MFE is a student interacting with when they are viewing courseware pages?&lt;&lt;&#10;(x) frontend-app-learning  &#10;(!) frontend-app-discussions  &#10;( ) frontend-app-gradebook  &#10;( ) frontend-app-studio&#10;&#10;&gt;&gt;4. What is Paragon in the Open edX project?&lt;&lt;&#10;(!) A tutorial system  &#10;( ) A backend API  &#10;(x) An accessible, theme-ready design system with reusable components  &#10;( ) A repository for course certificates&#10;&#10;&gt;&gt;5.  Which of the following are features provided by Paragon in the Open edX project?&lt;&lt;&#10;[x] Provides components such as Buttons and Dropdowns  &#10;[!] Comes with a postgres database  &#10;[x] Supports Internationalization and accessibility&#10;[x] Ensures consistency across MFEs  &#10;[ ] Includes a data analytics tool&#10;&#10;&gt;&gt;6. Which of the following steps are involved in debugging with Tutor in the Open edX project?&lt;&lt;&#10;[x] Add a breakpoint in the Django view using breakpoint()  &#10;[x] Attach a terminal to the standard output of an LMS service  &#10;[!] Use SQL to debug library errors  &#10;[x] Trigger the view and check the output in the command line  &#10;[ ] Run &quot;npm install&quot; commands to manage errors&#10;&#10;&gt;&gt;7. Why is version control necessary for Open edX source code development?&lt;&lt;&#10;(!) To reduce the number of repositories  &#10;( ) To handle high-volume traffic  &#10;(x) To create a clear, readable history of changes mades  &#10;( ) To make sure developers never have to talk to each other&#10;&#10;&gt;&gt;8. What does forking a repository on GitHub enable you to do?&lt;&lt;&#10;(x) Create a personal copy of a repo for modifications and contributions  &#10;(!) Delete repositories on the main project  &#10;( ) Directly merge changes into the upstream repo  &#10;( ) Avoid using pull requests&#10;&#10;&gt;&gt;9. What does the command &quot;git remote add upstream https://github.com/orgname/reponame&quot; do?&lt;&lt;&#10;(!) Deletes a remote repository  &#10;( ) Clones the repository  &#10;(x) Adds a new remote repository to your local repository  &#10;( ) Updates the local repository with the latest upstream commits&#10;&#10;&gt;&gt;10. What is the main goal of rebasing in Git?&lt;&lt;&#10;(!) Directly merge forks to the main branch  &#10;(x) Replay a branch’s commits on top of the latest commits from the main branch  &#10;( ) Remove the history of a branch  &#10;( ) Create a clone of an upstream repository&#10;&#10;&gt;&gt;11. Which commands are used to update your local branch with the latest changes from the upstream master branch?&lt;&lt;&#10;[x] git fetch upstream  &#10;[x] git merge upstream/main &#10;[!] git push origin main&#10;[ ] git clone  &#10;[x] git checkout master&#10;&#10;&gt;&gt;12. What steps should be followed to create and switch to a new branch in Git?&lt;&lt;&#10;[x] Use &quot;git branch branch-name&quot; to create a branch  &#10;[x] Use &quot;git checkout branch-name&quot; to switch to the branch  &#10;[x] Use &quot;git checkout -b branch-name&quot; to create and switch at the same time  &#10;[!] Use &quot;git merge branch-name&quot; to delete a branch  &#10;[ ] Use &quot;git remove branchname&quot; to rebase the branch&#10;&#10;&gt;&gt;13. What command is commonly used to run backend tests in Open edX repositories?&lt;&lt;&#10;(!) npm run test  &#10;(x) make test  &#10;( ) pytest start  &#10;( ) dev logs lms -f&#10;&#10;&gt;&gt;14. Which of the following practices is preferred in the Open edX coding standards?&lt;&lt;&#10;(!) Short variable names like `ck`  &#10;( ) Ignoring comments in the code  &#10;(x) Verbose, easy-to-understand variable names  &#10;( ) Complicated nested list comprehensions&#10;&#10;&gt;&gt;15. What documentation system does Open edX follow?&lt;&lt;&#10;(x) Diátaxis  &#10;(!) ISO 9001  &#10;( ) Agile documentation framework  &#10;( ) PRINCE2&#10;&#10;&gt;&gt;16. To which accessibility standard does Open edX strive to comply?&lt;&lt;&#10;(x) WCAG 2.2  &#10;(!) ISO 14001  &#10;( ) OHSAS 18001  &#10;( ) IEEE 802.11&#10;&#10;&gt;&gt;17. Which practices contribute to high code quality in the Open edX community?&lt;&lt;&#10;[x] Writing verbose and easy-to-understand code  &#10;[x] Using linters like pylint and ESLint  &#10;[!] Avoiding docstrings and comments  &#10;[x] Following conventional commit guidelines  &#10;[ ] Merging branches without reviews&#10;&#10;&gt;&gt;18. What is one core benefit of using MFEs (Micro Frontends) in Open edX?&lt;&lt;&#10;(!) Reduced number of backend APIs  &#10;(x) Smaller, more maintainable codebases  &#10;( ) Faster code deployment time  {{This is incorrect! Please try again.}}&#10;( ) Server-side rendering only&#10;&#10;&#10;&gt;&gt;19. How do MFEs interact with edx-platform?&lt;&lt;&#10;(!) By directly modifying its database  &#10;( ) Through static configurations  &#10;(x) Using API calls  &#10;( ) Using SSH connections&#10;&#10;&gt;&gt;20. Which advantages does Paragon have? Click all that apply. &lt;&lt;&#10;[x] Provides consistency for your Paragon components&#10;[!] Paragon includes built-in support for cryptocurrency transactions.&#10;[x] Provides scalability for your Paragon components&#10;[ ] All its components are static&#10;[x] Paragon is backed by a postgres database&#10;[ ] Paragon integrates directly with machine learning algorithms to optimize performance.&#10;[x] Internationalization support is provided for your Paragon components&#10;[ ] lacks accessibility support for its components.&#10;&#10;&#10;" showanswer="" submission_wait_seconds="0" weight="1.0">
+  <label>1. Which monolithic repository did the Open edX project originally start with?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">frontend-app-learning</choice>
+      <choice correct="true">edx-platform</choice>
+      <choice correct="false">tutor</choice>
+      <choice correct="false">frontend-app-discussions</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>2. What is the main function of XBlocks in the Open edX platform?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">To encapsulate frontend functionality</choice>
+      <choice correct="false">To provide a visually consistent user experience</choice>
+      <choice correct="true">To be modular building blocks that power courseware that students interact with</choice>
+      <choice correct="false">To manage repositories</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>3. Which MFE is a student interacting with when they are viewing courseware pages?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="true">frontend-app-learning</choice>
+      <choice correct="false">frontend-app-discussions</choice>
+      <choice correct="false">frontend-app-gradebook</choice>
+      <choice correct="false">frontend-app-studio</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>4. What is Paragon in the Open edX project?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">A tutorial system</choice>
+      <choice correct="false">A backend API</choice>
+      <choice correct="true">An accessible, theme-ready design system with reusable components</choice>
+      <choice correct="false">A repository for course certificates</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>5. Which of the following are features provided by Paragon in the Open edX project? (Select 3)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Provides components such as Buttons and Dropdowns  </choice>
+      <choice correct="false">Comes with a postgres database  </choice>
+      <choice correct="true">Supports Internationalization and accessibility</choice>
+      <choice correct="true">Ensures consistency across MFEs  </choice>
+      <choice correct="false">Includes a data analytics tool</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>6. Which of the following steps are involved in debugging with Tutor in the Open edX project? (Select 3)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Add a breakpoint in the Django view using breakpoint()  </choice>
+      <choice correct="true">Attach a terminal to the standard output of an LMS service  </choice>
+      <choice correct="false">Use SQL to debug library errors  </choice>
+      <choice correct="true">Trigger the view and check the output in the command line  </choice>
+      <choice correct="false">Run "npm install" commands to manage errors</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>7. Why is version control necessary for Open edX source code development?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">To reduce the number of repositories</choice>
+      <choice correct="false">To handle high-volume traffic</choice>
+      <choice correct="true">To create a clear, readable history of changes mades</choice>
+      <choice correct="false">To make sure developers never have to talk to each other</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>8. What does forking a repository on GitHub enable you to do?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="true">Create a personal copy of a repo for modifications and contributions</choice>
+      <choice correct="false">Delete repositories on the main project</choice>
+      <choice correct="false">Directly merge changes into the upstream repo</choice>
+      <choice correct="false">Avoid using pull requests</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>9. What does the command "git remote add upstream https://github.com/orgname/reponame" do?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Deletes a remote repository</choice>
+      <choice correct="false">Clones the repository</choice>
+      <choice correct="true">Adds a new remote repository to your local repository</choice>
+      <choice correct="false">Updates the local repository with the latest upstream commits</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>10. What is the main goal of rebasing in Git?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Directly merge forks to the main branch</choice>
+      <choice correct="true">Replay a branch’s commits on top of the latest commits from the main branch</choice>
+      <choice correct="false">Remove the history of a branch</choice>
+      <choice correct="false">Create a clone of an upstream repository</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>11. Which commands are used to update your local branch with the latest changes from the upstream master branch? (Select 3)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">git fetch upstream  </choice>
+      <choice correct="true">git merge upstream/main </choice>
+      <choice correct="false">git push origin main</choice>
+      <choice correct="false">git clone  </choice>
+      <choice correct="true">git checkout master</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>12. What steps should be followed to create and switch to a new branch in Git? (Select 3)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Use "git branch branch-name" to create a branch  </choice>
+      <choice correct="true">Use "git checkout branch-name" to switch to the branch  </choice>
+      <choice correct="true">Use "git checkout -b branch-name" to create and switch at the same time  </choice>
+      <choice correct="false">Use "git merge branch-name" to delete a branch  </choice>
+      <choice correct="false">Use "git remove branchname" to rebase the branch</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>13. What command is commonly used to run backend tests in Open edX repositories? </label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">npm run test</choice>
+      <choice correct="true">make test</choice>
+      <choice correct="false">pytest start</choice>
+      <choice correct="false">dev logs lms -f</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>14. Which of the following practices is preferred in the Open edX coding standards? </label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Short variable names like `ck`</choice>
+      <choice correct="false">Ignoring comments in the code</choice>
+      <choice correct="true">Verbose, easy-to-understand variable names</choice>
+      <choice correct="false">Complicated nested list comprehensions</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>15. What documentation system does Open edX follow?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="true">Diátaxis</choice>
+      <choice correct="false">ISO 9001</choice>
+      <choice correct="false">Agile documentation framework</choice>
+      <choice correct="false">PRINCE2</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>16. To which accessibility standard does Open edX strive to comply?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="true">WCAG 2.2</choice>
+      <choice correct="false">ISO 14001</choice>
+      <choice correct="false">OHSAS 18001</choice>
+      <choice correct="false">IEEE 802.11</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>17. Which practices contribute to high code quality in the Open edX community? (Select 3)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Writing verbose and easy-to-understand code  </choice>
+      <choice correct="true">Using linters like pylint and ESLint  </choice>
+      <choice correct="false">Avoiding docstrings and comments  </choice>
+      <choice correct="true">Following conventional commit guidelines  </choice>
+      <choice correct="false">Merging branches without reviews</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>18. What is one core benefit of using MFEs (Micro Frontends) in Open edX?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Reduced number of backend APIs</choice>
+      <choice correct="true">Smaller, more maintainable codebases</choice>
+      <choice correct="false">Faster code deployment time <choicehint>This is incorrect! Please try again.</choicehint></choice>
+      <choice correct="false">Server-side rendering only</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>19. How do MFEs interact with edx-platform?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">By directly modifying its database</choice>
+      <choice correct="false">Through static configurations</choice>
+      <choice correct="true">Using API calls</choice>
+      <choice correct="false">Using SSH connections</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>20. Which advantages does Paragon have? (Select 4) </label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Provides consistency for your Paragon components</choice>
+      <choice correct="false">Paragon includes built-in support for cryptocurrency transactions.</choice>
+      <choice correct="true">Provides scalability for your Paragon components</choice>
+      <choice correct="false">All its components are static</choice>
+      <choice correct="true">Paragon is backed by a postgres database</choice>
+      <choice correct="false">Paragon integrates directly with machine learning algorithms to optimize performance.</choice>
+      <choice correct="true">Internationalization support is provided for your Paragon components</choice>
+      <choice correct="false">Lacks accessibility support for its components.</choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

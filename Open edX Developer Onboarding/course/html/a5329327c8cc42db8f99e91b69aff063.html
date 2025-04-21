@@ -1,0 +1,23 @@
+<h3><strong>All Operating Systems</strong></h3>
+<p><span style="color: #333300;">After installing the packages using Debian Commands or OSX Commands, you need to edit the PATH variable in your shell configuration file in order to have <span style="font-family: terminal, monaco; color: #008000;">make</span> and <span style="font-family: terminal, monaco; color: #214f21;"><span style="color: #008000;">pip</span> </span>work properly, as well as to have python3 properly alias to python:</span></p>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="color: #008000; font-family: terminal, monaco;"><strong># in .bashrc, .zshrc, or other shell configuration file </strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="color: #008000; font-family: terminal, monaco;"><strong>if command -v pyenv 1&gt;/dev/null 2&gt;&amp;1; then </strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="color: #008000; font-family: terminal, monaco;"><strong>eval "$(pyenv init -)" </strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="color: #008000; font-family: terminal, monaco;"><strong>fi </strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="color: #008000; font-family: terminal, monaco;"><strong>if type brew &amp;&gt;/dev/null; then </strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><span style="color: #008000; font-family: terminal, monaco;"><strong>FPATH=$(brew --prefix)/share/zsh-completions:$FPATH </strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="color: #008000; font-family: terminal, monaco;"><strong>fi </strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="color: #008000; font-family: terminal, monaco;"><strong>export PATH="$(pyenv root)/shims:$PATH" </strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="color: #008000; font-family: terminal, monaco;"><strong>export PATH="$(pyenv root)/bin:$PATH" </strong></span></div>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="color: #008000; font-family: terminal, monaco;"><strong>export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"</strong></span></div>
+<p>You can apply these changes by running:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">$ source</span><span style="color: #008000;"><span style="font-family: terminal, monaco;"> ~/.zshr</span><span style="font-family: terminal, monaco;">c</span></span></strong></div>
+<p>or whatever the path to your shell configuration file is. Running `make --version` should give you a version that’s 4.4 or above, and if you’re on an Apple Silicone device, will have a line that starts with <em>“Built for aarch64-apple-darwin*”</em>.</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">$ which python</span></strong></div>
+<p></p>
+<p>Should give you a path that has your pyenv on it <em>(for example,</em> <span style="color: #008000; font-family: terminal, monaco;">/Users/username/.pyenv/shims/python</span>)</p>
+<p></p>
+<style></style>
+<style></style>
+<style></style>

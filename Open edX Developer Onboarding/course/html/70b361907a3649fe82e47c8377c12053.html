@@ -1,0 +1,16 @@
+<p>First thing we will do is set up DNS records for the domain and subdomains via which the instance is going to be accessible from the internet. Ensuring that the DNS is set up before launching Tutor makes it possible for Tutor to immediately request SSL certificates for your instance. Otherwise, you may have to wait for DNS cache invalidation.</p>
+<p>A typical installation uses a main hostname for the LMS and subdomains of the main hostname for other services such as the Studio and various MFEs.</p>
+<p>Let’s say your domain is <span style="color: #0000ff;">“www.myinstance.com”</span>. You will have to create an <span style="color: #008000; font-family: terminal, monaco;">A</span> record pointing<strong> <span style="color: #008000; font-family: terminal, monaco;">myinstance.com</span></strong> to the public IP of your Open edX server and a wildcard <span style="color: #008000; font-family: terminal, monaco;">CNAME</span> record, pointing <strong><span style="color: #008000; font-family: terminal, monaco;">*.myinstance.com</span></strong> to the main hostname. At a minimum, you need to set up the following subdomains:</p>
+<ul>
+<ul>
+<ul>
+<li><strong><span style="color: #008000; font-family: terminal, monaco;">myinstance.com</span></strong> = LMS</li>
+<li><strong><span style="color: #008000; font-family: terminal, monaco;">*.myinstance.com</span></strong> = everything else (<strong><span style="color: #008000; font-family: terminal, monaco;">studio.myinstance.com</span>, <span style="color: #008000; font-family: terminal, monaco;">courses.myinstance.com</span></strong>, and many other subdomains than various <a href="https://www.edunext.co/articles/7-micro-frontends-that-will-enhance-the-user-experience-on-the-open-edx-platform/" target="[object Object]">Micro Front-ends (MFEs)</a> utilize)</li>
+</ul>
+</ul>
+</ul>
+<p>The Tutor settings are: <strong><span style="color: #008000; font-family: terminal, monaco;">LMS_HOST / CMS_HOST</span></strong>. The relevant information about TLS is here: <a href="https://docs.tutor.edly.io/configuration.html#ssl-tls-certificates-for-https-access" target="_blank" rel="noopener">SSL/TLS certificates for HTTPS access</a></p>
+<p>The way to set up these DNS records depends on your DNS provider and is out of scope of this module. Search your DNS provider’s support site for clarification on the exact methods recommended.</p>
+<p><img src="/static/Stop_sign.png" alt="" type="saveimage" target="[object Object]" preventdefault="function (){r.isDefaultPrevented=n}" stoppropagation="function (){r.isPropagationStopped=n}" stopimmediatepropagation="function (){r.isImmediatePropagationStopped=n}" isdefaultprevented="function t(){return!1}" ispropagationstopped="function t(){return!1}" isimmediatepropagationstopped="function t(){return!1}" width="117" height="117" align="left" /></p>
+<p style="padding-left: 120px;">This course does not address how to set up the marketing site and/or ecommerce functions on your domain that points at the LMS. Given the multiple, complicated ways that exist to approach these features, contacting a service provider or experienced Open edX developer may be your best option if you want a customized marketing site in place of the default Open edX course catalog page.</p>
+<style></style>
