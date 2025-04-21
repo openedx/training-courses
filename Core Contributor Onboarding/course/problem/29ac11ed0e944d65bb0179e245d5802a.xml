@@ -1,0 +1,10 @@
+<problem display_name="Unit Checklist" markdown="null">
+  <choiceresponse>
+    <label>This checklist is a summary of all the TO-DO items presented in the "For non-Coding Core Contributor Roles" section of the course. Use it to track that you've completed all the items. </label>
+    <checkboxgroup>
+      <choice correct="true">I have checked that I have appropriate access to all the tools I need to be successful.</choice>
+      <choice correct="true">I understand I may need to take compliance courses in the future</choice>
+      <choice correct="true">I will abide by the Open edX project <a href="https://openedx.org/code-of-conduct/">Code of Conduct</a> and treat every community member with respect.</choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

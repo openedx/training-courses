@@ -1,0 +1,18 @@
+<problem display_name="Tool Access for non-coders" markdown="null" showanswer="" submission_wait_seconds="0" weight="1.0">
+  <p>Performing your duties as a Core Contributor may require special level of access to various systems. For example, Translators require access to Transifex, some Project and Product Managers may require permissions to manage tickets in GitHub, and some Marketing members may require access to systems like the blog or Open edX website.</p>
+  <p>Please get in touch with your sponsor, working group, or others with your role and figure out what your access requirements are. You may need to ask an Axim employee for access to properties such as the website or Transifex, or file an <a href="https://github.com/openedx/axim-engineering/issues/new/choose">Access request with Axim</a> for access to systems such as GitHub.</p>
+  <label>I have asked my sponsor/team/working group about what access requirements I have.</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">No</choice>
+      <choice correct="true">Yes</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>I have requested and received appropriate permissions for my role.</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">No</choice>
+      <choice correct="true">Yes</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

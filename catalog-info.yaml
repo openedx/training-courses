@@ -7,10 +7,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: 'training-courses'
-  description: "Open edX Training Courses (tar gz archives)"
+  description: "Open edX Training Courses"
   links:
-    - url: "https://open-edx-proposals.readthedocs.io/en/latest/index.html"
-      title: "OEP Index"
+    - url: "https://training.openedx.io/"
+      title: "Open edX Training Courses"
       # Backstage uses the MaterialUI Icon Set.
       # https://mui.com/material-ui/material-icons/
       # The value will be the name of the icon.

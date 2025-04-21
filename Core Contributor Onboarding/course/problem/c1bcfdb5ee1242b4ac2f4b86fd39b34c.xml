@@ -1,0 +1,11 @@
+<problem display_name="Legal Checklist" markdown="&gt;&gt;Please perform all of the following actions; you will not be able to complete them all at once because many involve back and forth between you and the Axim team.&#10;&lt;&lt;&#10;&#10;[x] Sign the individual CLA at https://openedx.org/cla&#10;[x] Send an email to cc-program-admins@axim.org with your *personal* (not work) email address. This is so we may draw up a personal CC Program Agreement between just you and Axim Collaborative.&#10;[x] Sign the DocuSign agreement(s) that is then sent to your personal email address. Please provide your full physical address (including country) when you sign (for example: 123 Main Street, Winnipeg, Manitoba R3C 4V9, Canada).&#10;">
+  <choiceresponse>
+    <label>Please perform all of the following actions; you will not be able to complete them all at once because many involve back and forth between you and the Axim team.
+</label>
+    <checkboxgroup>
+      <choice correct="true">Sign the individual CLA at https://openedx.org/cla</choice>
+      <choice correct="true">Send an email to cc-program-admins@axim.org with your *personal* (not work) email address. This is so we may draw up a personal CC Program Agreement between just you and Axim Collaborative.</choice>
+      <choice correct="true">Sign the DocuSign agreement(s) that is then sent to your personal email address. Please provide your full physical address (including country) when you sign (for example: 123 Main Street, Winnipeg, Manitoba R3C 4V9, Canada).</choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

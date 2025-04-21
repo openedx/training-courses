@@ -1,0 +1,8 @@
+<course license="creative-commons: ver=4.0 BY SA NC" advanced_modules="[&quot;survey&quot;]" catalog_visibility="both" cert_html_view_enabled="true" course_image="core contributor course card (1).png" course_visibility="private" days_early_for_beta="365.0" display_name="Core Contributor Onboarding" instructor_info="{&quot;instructors&quot;: []}" invitation_only="true" language="en" learning_info="[]" minimum_grade_credit="0.8" self_paced="true" start="2023-04-18T00:00:00Z">
+  <chapter url_name="697e93419a6049f081574db2313cdde4"/>
+  <chapter url_name="760a4a358d85409d9e67a9e8ee8d346e"/>
+  <chapter url_name="dad1be7657b34a86bc7a755b44edbd3b"/>
+  <chapter url_name="81c2f5b25048477a88f0d71307f2adf0"/>
+  <chapter url_name="35f46aa47d5c47f1ba107042d1243c80"/>
+  <wiki slug="OpenedX.NewCC.2024"/>
+</course>
