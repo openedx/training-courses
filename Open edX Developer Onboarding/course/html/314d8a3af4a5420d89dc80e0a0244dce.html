@@ -1,0 +1,12 @@
+<p>It’s common that you’ll need to run multiple versions of the Open edX platform - for example, you may need to run the most recent Named Release to simulate your installation, while also running nightly in order to develop features for the upstream Open edX codebase. Imagine we’re installing both Tutor versions (the most recent release and nightly) in two different virtual environments. We can’t use the default path for generating our Tutor environments, since they’ll override each other. So, we need to tell Tutor where we should generate our environment, among other things:</p>
+<ol>
+<ol>
+<ol>
+<li>We need to export the environment variable <strong><span style="color: #008000; font-family: terminal, monaco;">TUTOR_ROOT</span>.</strong> So that configuration, environment, and data are not mixed up between platforms.</li>
+<li>Then, we must set up a <strong><span style="color: #008000; font-family: terminal, monaco;">DEV_PROJECT_NAME</span></strong> in our config.yml. So the various docker-compose projects don’t share the same name and you can have multiple environments that don’t get mixed up.</li>
+</ol>
+</ol>
+</ol>
+<p>For more information about Tutor customization, please refer to <a href="https://docs.tutor.edly.io/configuration.html#configuration-and-customisation%20and%20https://docs.tutor.edly.io/tutorials/multiplatforms.html#running-multiple-open-edx-platforms-on-a-single-server" target="_blank" rel="noopener">Configuration and Customisation</a>  and <a href="https://docs.tutor.edly.io/tutorials/multiplatforms.html#running-multiple-open-edx-platforms-on-a-single-server" target="_blank" rel="noopener">Running Multiple Open edX Platforms on a Single Server</a></p>
+<p>Then, we can run <strong><span style="font-family: terminal, monaco; color: #008000;">tutor dev launch</span></strong> in each environment and get two different tutor installations. Keep in mind, however, that you can’t run the <span style="color: #008000; font-family: terminal, monaco;">tutor dev launch</span> command simultaneously since they use the same ports from your host machine unless you configure them otherwise.</p>
+<h4>We’ll interact more with our new development environment in the following sections, click next to get started.</h4>

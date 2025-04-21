@@ -1,0 +1,22 @@
+<p>First, let’s come up with our definition of <em>developer-friendly.</em> Here’s what Open edX developers typically like to do day-to-day with an Open edX environment:</p>
+<ul>
+<ul>
+<ul>
+<li>When we’re implementing a change for a service, we want to modify its source code with our preferred Integrated Development Environment (IDE) easily.</li>
+<li>We want our development environment to hot-reload after modifying it.</li>
+<li>In case we find a bug in our code, we want to debug it with our favorite debugging tool.</li>
+<li>We want to install extra pip requirements, in editable mode if needed.</li>
+<li>We want to modify the provision of the docker services if needed, so we can run services however we need to.</li>
+</ul>
+</ul>
+</ul>
+<p>How do we do those things with Tutor? The Tutor CLI allows us to interact with our environment in a friendly manner! So we can do any of those things without far-fetched tricks. Let’s see how!</p>
+<p>The Open edX services are hosted locally as Docker containers orchestrated by Docker compose, so the source code is embedded in the D images while building them.</p>
+<p>As we usually do with Docker services, with Tutor we can use bind-mounts to connect the code in our machines to that provisioned in the Docker container. This way, we can change the service's source code or even the code from an installed library! This is how you do it:</p>
+<p><strong>First,</strong> copy the repository from the built image into your machine. We do this so we take all the necessary files to continue serving those services as usual:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor dev copyfrom --help </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">Usage: tutor dev copyfrom [OPTIONS] SERVICE CONTAINER_PATH HOST_PATH </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">Copy files/folders from a container directory to the local filesystem. </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">Options: </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5; padding-left: 30px;"><strong><span style="color: #008000; font-family: terminal, monaco;">-h, --help Show this message and exit.</span></strong></div>
+<p>Watch this video to see it in action:</p>

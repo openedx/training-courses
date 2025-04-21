@@ -1,0 +1,193 @@
+<problem display_name="Module 5 Quiz" markdown="&gt;&gt;1. What is the main purpose of upstream contributions in the Open edX project?&lt;&lt;&#10;(!) To locally add custom code specific to your project&#10;(x) To send custom code back to the main project for community use  &#10;( ) To create a private repository for personal use  &#10;( ) To avoid any further code reviews  &#10;&#10;&gt;&gt;2. What is the first step in starting to contribute a feature upstream?&lt;&lt;&#10;(x) Reviewing the Product Roadmap  &#10;(!) Posting in Slack that you are submitting a new feature  &#10;( ) Directly opening a pull request&#10;( ) Refactoring existing code &#10;&#10;&gt;&gt;3. What should you include in every feature request or product proposal ticket? (Select all that apply)&lt;&lt;&#10;[x] Provide context for the feature  &#10;[!] Describe a suggested program implementation {{Selected: This is not a requirement, but you can suggest program implementation.}}&#10;[x] Write clearly but concisely  &#10;[x] Provide a statement of why this feature is valuable for the platform  &#10;[x] Provide a link to deeper context, when needed  &#10;&#10;&#10;&gt;&gt;4. When reporting a security issue for the Open edX project, what should you do?&lt;&lt;&#10;(!) Post it publicly on GitHub  &#10;( ) Discuss it in the community forum  &#10;( ) Make a pull request to fix the issue  &#10;(x) Email a report to security@openedx.org &#10;&#10;&gt;&gt;5. What elements make a good bug report? (Select all that apply)&lt;&lt;&#10;[x] Clearly state what the bug is  &#10;[!] Complain about the bug  &#10;[x] Clearly state how to reproduce the bug  &#10;[x] Provide screenshots or a video of a screen capture  &#10;[x] State what system the bug was found on&#10;&#10;&gt;&gt;6. Where should you go if you have questions about how an Open edX platform feature should work?&lt;&lt;&#10;(x) Engage with the product team on the feature request or roadmap ticket  &#10;(!) Open a GitHub Issue  &#10;( ) Post in the Development category on the forums  &#10;( ) Email the core contributors directly  &#10;&#10;&gt;&gt;7. If you work for a company that also works on the Open edX platform, which CLA might you use?&lt;&lt;&#10;(!) The individual CLA always  &#10;(x) The entity CLA if contributions are related to your company’s work  &#10;( ) No CLA is necessary  &#10;( ) An individual CLA regardless of employer status  &#10;&#10;&gt;&gt;8. What is a pull request (PR) according to GitHub?&lt;&lt;&#10;(!) A method to share status updates  &#10;(x) A proposal to merge a set of changes from one branch into another  &#10;( ) A product proposal of a new feature  &#10;( ) An internal review system  &#10;&#10;&gt;&gt;9. Which ways can be used to rerun CI/CD tests within the ``openedx`` repositories?? (Select all that apply)&lt;&lt;&#10;[x] Push a new commit  &#10;[!] Close the PR and open a new one  &#10;[ ] Shut down the CI/CD pipeline  &#10;[x] Push an empty commit using ``git commit --allow-empty -m &quot;temp: empty commit&quot;``  &#10;[x] Rebase the pull request atop master or main  &#10;[x] Squash commits, or reword a commit, using interactive rebase  &#10;[x] Close the PR and re-open it &#10;&#10;&gt;&gt;10. Which aspect of a PR description can speed up the review process?&lt;&lt;&#10;(x) Providing a detailed summary with appropriate context, links, and screenshots  &#10;(!) Keeping the summary short and vague  &#10;( ) Using as few technical terms as possible  &#10;( ) Including extensive criticism of current codebase issues  &#10;&#10;&gt;&gt;11. What is a draft pull request primarily used for?&lt;&lt;&#10;(!) Ensuring no one makes comments on your pull request  &#10;( ) Finalizing code that is ready for review  &#10;(x) Opening a pull request that isn’t ready to be reviewed yet  &#10;( ) Creating a placeholder for future code  &#10;&#10;&gt;&gt;12. When submitting a pull request (PR), which steps should you follow? (Select all that apply)&lt;&lt;&#10;[x] Use a draft PR until tests pass and the PR is ready for review  &#10;[x] Flesh out the summary, following the repo’s PR template if present  &#10;[x] Ensure tests pass locally before submitting  &#10;[x] Rebase atop master frequently  &#10;[x] Accept feedback openly  &#10;[x] Communicate potential delays  &#10;&#10;&gt;&gt;13. What tool does the Open edX project use for continuous integration (CI) testing?&lt;&lt;&#10;(x) GitHub Actions  &#10;(!) Jenkins  &#10;( ) CircleCI  &#10;( ) Travis CI  &#10;&#10;&gt;&gt;14. How often should you rebase your pull request to keep it from getting stale?&lt;&lt;&#10;(!) Every month  &#10;(x) Every week  &#10;( ) Every day  &#10;( ) Rebasing is not required  &#10;&#10;&gt;&gt;15. What is the role of the CLA Check in CI tests for Open edX?&lt;&lt;&#10;( ) Ensure frontend code is running correctly  &#10;(x) Verify if your submission is covered under a CLA  &#10;( ) Validate performance metrics  &#10;( ) None of the above  &#10;&#10;&gt;&gt;16. How should you handle feedback on your pull request?&lt;&lt;&#10;[!] Ignore it  &#10;[x] Be thorough, thoughtful, and polite  &#10;[ ] Argue against it  &#10;[ ] Dismiss it as unnecessary  &#10;[x] Ask for additional detail or context when unsure what the feedback means&#10;[x] Respectfully and courteously explain your reasoning when disagreeing with it &#10;&#10;&gt;&gt;17. What does a Community PR Manager provide updates about?&lt;&lt;&#10;(!) General community questions  &#10;(x) Status of your pull request  &#10;( ) Only enhancement requests  &#10;( ) How to fix a PR’s failing tests  &#10;&#10;&gt;&gt;18. To ensure a PR is ready for review, what should you include in the PR summary? (Select all that apply)&lt;&lt;&#10;[x] Why the PR is needed  &#10;[x] Links to previous feature requests, product proposals, or bug reports  &#10;[x] Steps for bug reproduction or feature testing  &#10;[x] Screenshots and/or videos  &#10;[x] Open questions or concerns, if there are any&#10;&#10;&gt;&gt;19. What categories should you focus on when asking and answering development questions in the forums?&lt;&lt;&#10;(!) Site Operators and its subcategories  &#10;(x) Development and its subcategories  &#10;( ) Educators and its subcategories &#10;( ) Working Groups and its subcategories  &#10;&#10;&gt;&gt;20. What should you do if you can't address feedback on your PR right away? (Select all that apply)&lt;&lt;&#10;[x] Leave a comment stating your time limitations  &#10;[ ] Delete the PR  &#10;[x] Be honest about what you don’t know  &#10;[!] Resubmit the PR without changes  &#10;&#10;&#10;&#10;">
+  <label>1. What is the main purpose of upstream contributions in the Open edX project?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">To locally add custom code specific to your project</choice>
+      <choice correct="true">To send custom code back to the main project for community use</choice>
+      <choice correct="false">To create a private repository for personal use</choice>
+      <choice correct="false">To avoid any further code reviews</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>2. What is the first step in starting to contribute a feature upstream?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="true">Reviewing the Product Roadmap</choice>
+      <choice correct="false">Posting in Slack that you are submitting a new feature</choice>
+      <choice correct="false">Directly opening a pull request</choice>
+      <choice correct="false">Refactoring existing code</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>3. What should you include in every feature request or product proposal ticket? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Provide context for the feature  </choice>
+      <choice correct="false">Describe a suggested program implementation
+      <choicehint selected="true">This is not a requirement, but you can suggest program implementation.</choicehint></choice>
+      <choice correct="true">Write clearly but concisely  </choice>
+      <choice correct="true">Provide a statement of why this feature is valuable for the platform  </choice>
+      <choice correct="true">Provide a link to deeper context, when needed  </choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>4. When reporting a security issue for the Open edX project, what should you do?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Post it publicly on GitHub</choice>
+      <choice correct="false">Discuss it in the community forum</choice>
+      <choice correct="false">Make a pull request to fix the issue</choice>
+      <choice correct="true">Email a report to security@openedx.org</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>5. What elements make a good bug report? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Clearly state what the bug is  </choice>
+      <choice correct="false">Complain about the bug  </choice>
+      <choice correct="true">Clearly state how to reproduce the bug  </choice>
+      <choice correct="true">Provide screenshots or a video of a screen capture  </choice>
+      <choice correct="true">State what system the bug was found on</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>6. Where should you go if you have questions about how an Open edX platform feature should work?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="true">Engage with the product team on the feature request or roadmap ticket</choice>
+      <choice correct="false">Open a GitHub Issue</choice>
+      <choice correct="false">Post in the Development category on the forums</choice>
+      <choice correct="false">Email the core contributors directly</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>7. If you work for a company that also works on the Open edX platform, which CLA might you use?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">The individual CLA always</choice>
+      <choice correct="true">The entity CLA if contributions are related to your company’s work</choice>
+      <choice correct="false">No CLA is necessary</choice>
+      <choice correct="false">An individual CLA regardless of employer status</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>8. What is a pull request (PR) according to GitHub?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">A method to share status updates</choice>
+      <choice correct="true">A proposal to merge a set of changes from one branch into another</choice>
+      <choice correct="false">A product proposal of a new feature</choice>
+      <choice correct="false">An internal review system</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>9. Which ways can be used to rerun CI/CD tests within the ``openedx`` repositories?? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Push a new commit  </choice>
+      <choice correct="false">Close the PR and open a new one  </choice>
+      <choice correct="false">Shut down the CI/CD pipeline  </choice>
+      <choice correct="true">Push an empty commit using ``git commit --allow-empty -m "temp: empty commit"``  </choice>
+      <choice correct="true">Rebase the pull request atop master or main  </choice>
+      <choice correct="true">Squash commits, or reword a commit, using interactive rebase  </choice>
+      <choice correct="true">Close the PR and re-open it </choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>10. Which aspect of a PR description can speed up the review process?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="true">Providing a detailed summary with appropriate context, links, and screenshots</choice>
+      <choice correct="false">Keeping the summary short and vague</choice>
+      <choice correct="false">Using as few technical terms as possible</choice>
+      <choice correct="false">Including extensive criticism of current codebase issues</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>11. What is a draft pull request primarily used for?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Ensuring no one makes comments on your pull request</choice>
+      <choice correct="false">Finalizing code that is ready for review</choice>
+      <choice correct="true">Opening a pull request that isn’t ready to be reviewed yet</choice>
+      <choice correct="false">Creating a placeholder for future code</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>12. When submitting a pull request (PR), which steps should you follow? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Use a draft PR until tests pass and the PR is ready for review  </choice>
+      <choice correct="true">Flesh out the summary, following the repo’s PR template if present  </choice>
+      <choice correct="true">Ensure tests pass locally before submitting  </choice>
+      <choice correct="true">Rebase atop master frequently  </choice>
+      <choice correct="true">Accept feedback openly  </choice>
+      <choice correct="true">Communicate potential delays  </choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>13. What tool does the Open edX project use for continuous integration (CI) testing?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="true">GitHub Actions</choice>
+      <choice correct="false">Jenkins</choice>
+      <choice correct="false">CircleCI</choice>
+      <choice correct="false">Travis CI</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>14. How often should you rebase your pull request to keep it from getting stale?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Every month</choice>
+      <choice correct="true">Every week</choice>
+      <choice correct="false">Every day</choice>
+      <choice correct="false">Rebasing is not required</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>15. What is the role of the CLA Check in CI tests for Open edX?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Ensure frontend code is running correctly</choice>
+      <choice correct="true">Verify if your submission is covered under a CLA</choice>
+      <choice correct="false">Validate performance metrics</choice>
+      <choice correct="false">None of the above</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>16. How should you handle feedback on your pull request?</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="false">Ignore it  </choice>
+      <choice correct="true">Be thorough, thoughtful, and polite  </choice>
+      <choice correct="false">Argue against it  </choice>
+      <choice correct="false">Dismiss it as unnecessary  </choice>
+      <choice correct="true">Ask for additional detail or context when unsure what the feedback means</choice>
+      <choice correct="true">Respectfully and courteously explain your reasoning when disagreeing with it </choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>17. What does a Community PR Manager provide updates about?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">General community questions</choice>
+      <choice correct="true">Status of your pull request</choice>
+      <choice correct="false">Only enhancement requests</choice>
+      <choice correct="false">How to fix a PR’s failing tests</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>18. To ensure a PR is ready for review, what should you include in the PR summary? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Why the PR is needed  </choice>
+      <choice correct="true">Links to previous feature requests, product proposals, or bug reports  </choice>
+      <choice correct="true">Steps for bug reproduction or feature testing  </choice>
+      <choice correct="true">Screenshots and/or videos  </choice>
+      <choice correct="true">Open questions or concerns, if there are any</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>19. What categories should you focus on when asking and answering development questions in the forums?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Site Operators and its subcategories</choice>
+      <choice correct="true">Development and its subcategories</choice>
+      <choice correct="false">Educators and its subcategories</choice>
+      <choice correct="false">Working Groups and its subcategories</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>20. What should you do if you can't address feedback on your PR right away? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Leave a comment stating your time limitations  </choice>
+      <choice correct="false">Delete the PR  </choice>
+      <choice correct="true">Be honest about what you don’t know  </choice>
+      <choice correct="false">Resubmit the PR without changes  </choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

@@ -1,0 +1,19 @@
+<h4><strong>Internationalization </strong></h4>
+<p>For many organizations, the internationalization of the Open edX software has been a key benefit of adopting it as their LMS. The Open edX software is globally used and has already been translated into dozens of languages using the crowd-sourcing software <a href="https://www.transifex.com/open-edx/" target="_blank">Transifex</a>. As of March 2024, 18 languages are officially supported by the Translations Working Group, including French and Spanish (Latin America).</p>
+<p><a href="https://openedx.atlassian.net/wiki/spaces/COMM/pages/3157524644/Translation+Working+Group#The-following-is-a-table-of-the-latest-list-of-languages-supported--by-the-Translation-Working-Group" target="_blank">See the up-to-date list of officially supported languages here.</a></p>
+<p>It’s important to note that the only way that a site can be translated is if its strings are marked appropriately for translation. There is special syntax in Python/Django and JavaScript/React to define strings in a way that tells a scraping script to scrape the strings into a translation file. In simple terms, translators translate these strings into the desired language, the translated strings are returned to the translation files, and software serves strings according to user preference. The actual coding of the process is a bit more complicated than that; Module 6 &gt; Internationalization reviews how it works in greater detail.</p>
+<h3><img src="/static/Stop_sign.png" alt="" type="saveimage" target="[object Object]" preventdefault="function (){r.isDefaultPrevented=n}" stoppropagation="function (){r.isPropagationStopped=n}" stopimmediatepropagation="function (){r.isImmediatePropagationStopped=n}" isdefaultprevented="function t(){return!1}" ispropagationstopped="function t(){return!1}" isimmediatepropagationstopped="function t(){return!1}" width="117" height="117" align="left" /></h3>
+<div style="margin-left: 100pt;">
+<p><strong>Note</strong> that the term Internationalization is often abbreviated to “i18n” - “i” followed by the number 18 (representing the 18 letters in the middle of the word) followed by “n”. You’ll see this abbreviation a lot.</p>
+<p>When preparing strings for translation, pay close attention to interpolation, plural forms, and providing contextual comments for translators. Think about your string in isolation from your code - does it make sense out of context? If not, or if it is ambiguous, provide a translator’s comment. Here are some resources to get you started:</p>
+<ul>
+<ul>
+<ul>
+<li><a href="https://shopify.engineering/internationalization-i18n-best-practices-front-end-developers" target="_blank">Translating strings: Linguistic Case Study </a>- the code examples are frontend focused, but the lessons presented from a linguistic perspective are very important.</li>
+<li><a href="https://docs.djangoproject.com/en/4.2/topics/i18n/translation/" target="_blank">Translating in Django</a></li>
+<li><a href="https://formatjs.io/docs/react-intl/components/" target="_blank">Using react-intl library for React</a></li>
+</ul>
+</ul>
+</ul>
+</div>
+<p></p>

@@ -1,0 +1,104 @@
+<problem display_name="Check your knowledge!" markdown="&gt;&gt;1. What types of decision records do we use in the Open edX project? (PIck 2)&lt;&lt;&#10;[ ] READMEs {{ selected: That is not correct. Try again.}}&#10;[x] ADRs {{ selected: That’s right! This is a type of decision record we use.}}&#10;[ ] Docs.openedx.org {{ selected: That is not correct. Try again.}}&#10;[ ] Working Groups {{ selected: That is not correct. Try again.}}&#10;[x] OEPs {{ selected: That’s right! This is a type of decision record we use.}}&#10;&#10;&gt;&gt;2. Which one of these are NOT an Open edX extension?&lt;&lt; &#10;( ) XBlock {{That is not correct. Open edX uses this extension}}&#10;( ) Django App Plugin {{That is not correct. Open edX uses this extension}}&#10;( ) LTI {{That is not correct. Open edX uses this extension}}&#10;( ) Custom Python Problems {{That is not correct. Open edX uses this extension}}&#10;( ) JS Input {{That is not correct. Open edX uses this extension}}&#10;( ) SCORM {{That is not correct. Open edX uses this extension}}&#10;( ) Raw OLX editing {{That is not correct. Open edX uses this extension}}&#10;(x) All of the above are used {{That’s right! All of these extensions are used ny Open edX.}}&#10;&#10;&gt;&gt;3. What technologies does the Open edX platform use that we’d like to get rid of? (PIck 2)&lt;&lt;&#10;[ ] Python {{ selected: That is not correct. Try again.}}&#10;[x] Ruby/Sinatra {{ selected: That’s right! This is one technology we would like to get rid of.}}&#10;[ ] Django {{ selected: That is not correct. Try again.}}&#10;[ ] React {{ selected: That is not correct. Try again.}}&#10;[x] MongoDB {{ selected: That’s right! That’s right! This is one technology we would like to get rid of.}}&#10;[ ] MySQL {{ selected: That is not correct. Try again.}}&#10;&#10;&gt;&gt;4. What is the name of Open edX’s design system, based on Bootstrap?&lt;&lt; &#10;[[&#10;Nango&#10;Embedded Tray.io&#10;(Paragon)&#10;Merge.dev&#10;Apideck&#10;]]&#10;&#10;&gt;&gt;5. True or False: The Open edX community has developed native iOS and Android Apps.&lt;&lt; &#10;(x) True {{That’s right! The statement is true.}}&#10;( ) False {{That is not correct. Try again.}}&#10;&#10;&gt;&gt;6. What does the Open edX platform use for events within the system? (Pick 2)&lt;&lt;&#10;[x] openedx-events {{ selected: That’s right! That is what Oped edX uses for events within the system.}}&#10;[ ] Python signals {{ selected: That is not correct. Try again.}}&#10;[ ] React events {{ selected: That is not correct. Try again.}}&#10;[x] Django signals {{ selected: That’s right! That is what Oped edX uses for events within the system.}}&#10;&#10;&#10;&gt;&gt;7. In 2017 the Open edX project began a replatforming effort. What were some of the reasons? (Pick 4)&lt;&lt; &#10;[x]Make it faster to develop {{ selected: That’s right! This is one of the reasons.}}&#10;[ ] Improve server performance {{ selected: That is not correct. Try again.}}&#10;[x] Improve frontend performance {{ selected: That’s right! This is one of the reasons.}}&#10;[ ] Make analytics easier {{ selected: That is not correct. Try again.}}&#10;[x] Make it easier to approach the code {{ selected: That’s right! This is one of the reasons.}}&#10;[x] Improve API backends {{ selected: That’s right! This is one of the reasons.}}&#10;&#10;&gt;&gt;8. What’s a micro-frontend?&lt;&lt; &#10;( ) Similar a microservice {{That is not the complete answer. Try again.}}&#10;( ) Decoupled {{That is not the complete answer. Try again.}}&#10;( ) Independently deployable {{That is not the complete answer. Try again.}}&#10;( ) Highly scalable {{That is not the complete answer. Try again.}}&#10;(x) All of the above {{That’s right! All choices describe a micro-front end.}}&#10;" showanswer="" submission_wait_seconds="0" weight="1.0">
+  <label>1. What types of decision records do we use in the Open edX project? (Pick 2)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="false">READMEs
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">ADRs
+      <choicehint selected="true">That’s right! This is a type of decision record we use.</choicehint></choice>
+      <choice correct="false">Docs.openedx.org
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="false">Working Groups
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">OEPs
+      <choicehint selected="true">That’s right! This is a type of decision record we use.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>2. Which ONE of these are NOT an Open edX extension?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">XBlock <choicehint>That is not correct. Open edX uses this extension</choicehint></choice>
+      <choice correct="false">Django App Plugin <choicehint>That is not correct. Open edX uses this extension</choicehint></choice>
+      <choice correct="false">LTI <choicehint>That is not correct. Open edX uses this extension</choicehint></choice>
+      <choice correct="false">Custom Python Problems <choicehint>That is not correct. Open edX uses this extension</choicehint></choice>
+      <choice correct="false">JS Input <choicehint>That is not correct. Open edX uses this extension</choicehint></choice>
+      <choice correct="false">SCORM <choicehint>That is not correct. Open edX uses this extension</choicehint></choice>
+      <choice correct="false">Raw OLX editing <choicehint>That is not correct. Open edX uses this extension</choicehint></choice>
+      <choice correct="true">All of the above are used <choicehint>That’s right! All of these extensions are used ny Open edX.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>3. What technologies does the Open edX platform use that we’d like to get rid of? (Pick 2)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="false">Python
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">Ruby/Sinatra
+      <choicehint selected="true">That’s right! This is one technology we would like to get rid of.</choicehint></choice>
+      <choice correct="false">Django
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="false">React
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">MongoDB
+      <choicehint selected="true">That’s right! That’s right! This is one technology we would like to get rid of.</choicehint></choice>
+      <choice correct="false">MySQL
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>4. What is the name of Open edX’s design system, based on Bootstrap?</label>
+  <optionresponse>
+    <optioninput>
+      <option correct="False">Nango</option>
+      <option correct="False">Embedded Tray.io</option>
+      <option correct="True">Paragon</option>
+      <option correct="False">Merge.dev</option>
+      <option correct="False">Apideck</option>
+    </optioninput>
+  </optionresponse>
+  <label>5. True or False: The Open edX community has developed native iOS and Android Apps.</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True <choicehint>That’s right! The statement is true.</choicehint></choice>
+      <choice correct="false">False <choicehint>That is not correct. Try again.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>6. What does the Open edX platform use for events within the system? (Pick 2)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">openedx-events
+      <choicehint selected="true">That’s right! That is what Oped edX uses for events within the system.</choicehint></choice>
+      <choice correct="false">Python signals
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="false">React events
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">Django signals
+      <choicehint selected="true">That’s right! That is what Oped edX uses for events within the system.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>7. In 2017 the Open edX project began a replatforming effort. What were some of the reasons? (Pick 4)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Make it faster to develop
+      <choicehint selected="true">That’s right! This is one of the reasons.</choicehint></choice>
+      <choice correct="false">Improve server performance
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">Improve frontend performance
+      <choicehint selected="true">That’s right! This is one of the reasons.</choicehint></choice>
+      <choice correct="false">Make analytics easier
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">Make it easier to approach the code
+      <choicehint selected="true">That’s right! This is one of the reasons.</choicehint></choice>
+      <choice correct="true">Improve API backends
+      <choicehint selected="true">That’s right! This is one of the reasons.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>8. What’s a micro-frontend?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Similar to a microservice <choicehint>That is not the complete answer. Try again.</choicehint></choice>
+      <choice correct="false">Decoupled <choicehint>That is not the complete answer. Try again.</choicehint></choice>
+      <choice correct="false">Independently deployable <choicehint>That is not the complete answer. Try again.</choicehint></choice>
+      <choice correct="false">Highly scalable <choicehint>That is not the complete answer. Try again.</choicehint></choice>
+      <choice correct="true">All of the above <choicehint>That’s right! All choices describe a micro-front end.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

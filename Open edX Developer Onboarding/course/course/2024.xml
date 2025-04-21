@@ -1,0 +1,10 @@
+<course license="creative-commons: ver=4.0 BY NC SA" advanced_modules="[&quot;crowdsourcehinter&quot;, &quot;done&quot;, &quot;lti_consumer&quot;, &quot;scorm&quot;, &quot;rate&quot;, &quot;recommender&quot;, &quot;staff_graded&quot;, &quot;xblock_discussion&quot;, &quot;drag_and_drop_v2&quot;, &quot;google_drive&quot;, &quot;problem-builder&quot;, &quot;step-builder&quot;, &quot;annotatable&quot;, &quot;videoalpha&quot;, &quot;openassessment&quot;, &quot;pdf&quot;, &quot;word_cloud&quot;, &quot;poll&quot;, &quot;survey&quot;, &quot;h5pxblock&quot;, &quot;google-document&quot;, &quot;google-calendar&quot;, &quot;library_content&quot;, &quot;invideoquiz&quot;, &quot;video_iframe&quot;]" cert_html_view_enabled="true" certificates_display_behavior="early_no_info" course_image="_Intro to Open edX Dev course card.png" days_early_for_beta="90.0" display_name="Open edX Developer Onboarding" graceperiod="" instructor_info="{&quot;instructors&quot;: []}" language="en" learning_info="[]" minimum_grade_credit="0.8" self_paced="true" start="2024-10-25T00:00:00Z" user_partitions="[{&quot;id&quot;: 710224025, &quot;name&quot;: &quot;Content Groups&quot;, &quot;scheme&quot;: &quot;cohort&quot;, &quot;description&quot;: &quot;The groups in this configuration can be mapped to cohorts in the Instructor Dashboard.&quot;, &quot;parameters&quot;: {}, &quot;groups&quot;: [{&quot;id&quot;: 646227527, &quot;name&quot;: &quot;Staff Only&quot;, &quot;version&quot;: 1}], &quot;active&quot;: true, &quot;version&quot;: 3}]">
+  <chapter url_name="ffac183938c946198b2b0688d240e101"/>
+  <chapter url_name="d51afad6a09543dfb4da52fe98a6c58c"/>
+  <chapter url_name="f3d0346ece8841de9d8859cf1eecf2f9"/>
+  <chapter url_name="4ad6fe6caf684b6e9014bec089675c21"/>
+  <chapter url_name="1a9f98929ac34c21838f3114670ba8a1"/>
+  <chapter url_name="9306ddb73c104b9e90a3364d1a98baeb"/>
+  <chapter url_name="f2b0e6ff98774741950041ff4a0e3464"/>
+  <wiki slug="OpenedX.OEX-Dev101.2024"/>
+</course>

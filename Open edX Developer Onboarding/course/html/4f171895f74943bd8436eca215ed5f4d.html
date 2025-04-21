@@ -1,0 +1,20 @@
+<p>Since we can modify the service source code and previously installed libraries in Tutor, we can have a more straightforward debugging process. Imagine we found a bug in the registration page, and we figure it’s related to the backend used by the page. How can we check what’s happening? Try the following:</p>
+<ol>
+<li>First, try exploring the <a href="https://github.com/openedx/" target="_blank" rel="noopener">Open edX project’s repositories</a>. Specifically, the <a href="https://github.com/openedx/edx-platform" target="_blank" rel="noopener">edx-platform</a> repository, so you get familiar with the project’s structure. That repository implements the main Open edX services: the Learning Management System (LMS) and the Content Management Service (CMS) that powers Open edX Studio. You’ll find that both are a sum of multiple Django applications, some of them specific to each service and some shared between them.</li>
+<li>Once we find the Django view we want to debug, in our case class RegistrationView (API View) (don’t worry about finding the right view yet, it will get easier once you get familiar with the project), add a breakpoint at the start of the view (the first line within the <strong><span style="color: #008000; font-family: terminal, monaco;">post</span></strong> method). This way, we can check line by line what’s happening inside the view:</li>
+</ol>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">breakpoint()</span></strong></div>
+<p>3. Now, you need to attach a terminal to the standard output of the service you want to debug. Since we’re debugging the LMS service, do this:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor dev logs lms -f</span></strong></div>
+<p>4. We’re ready to trigger the view. Go to the registration page, fill in the form, and hit submit! Now, check the output in the command line, you’ll see something like</p>
+<p>As you can see, Tutor makes the debugging process fairly straightforward. You can use similar processes with VSCode and with Python.</p>
+<p><strong>See also: </strong></p>
+<ul>
+<ul>
+<ul>
+<li><a href="https://docs.tutor.edly.io/tutorials/edx-platform.html#debugging-with-breakpoints" target="_blank" rel="noopener">Tutor documentation</a></li>
+<li><a href="https://discuss.openedx.org/t/how-to-debug-python-code-using-vscode/8111/5" target="_blank" rel="noopener">Debugging with VSCode</a></li>
+<li>For a more detailed explanation of how Python breakpoints work, see <a href="https://docs.python.org/3.8/library/pdb.html" target="[object Object]">pdb: The Python Debugger.</a></li>
+</ul>
+</ul>
+</ul>

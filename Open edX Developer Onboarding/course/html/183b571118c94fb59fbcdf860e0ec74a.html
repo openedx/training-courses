@@ -1,0 +1,16 @@
+<p>One of the newest features added to the Open edX platform, MFEs have greatly enhanced the system’s move to being more lean and agile. MFEs stand for Micro Frontends. What are micro frontends? MFEs are small bits of frontend code, as compared with frontend monoliths (usually one code repo holding all the code for a given project). MFEs live in their own repo and are deployed independently. Why use them?</p>
+<p>Some of the key benefits that we've seen from micro frontends are:</p>
+<ul>
+<ul>
+<ul>
+<li>smaller, more cohesive and maintainable codebases</li>
+<li>more scalable organizations with decoupled, autonomous teams</li>
+<li>the ability to upgrade, update, or even rewrite parts of the frontend in a more incremental fashion than was previously possible</li>
+</ul>
+</ul>
+</ul>
+<p>Credit: <a href="https://martinfowler.com/articles/micro-frontends.html" target="_blank" rel="noopener">This blog post by Martin Fowler</a>, which is worth a read. It gives a very clear idea about what Micro Frontends are.</p>
+<p>MFEs help us to scale Frontends and maintain them. There can be multiple small teams that can work on and maintain these different frontends in an agile fashion: without the monolith, teams can develop a feature without worrying about major conflicts.</p>
+<p>MFEs interact with edx-platform through APIs. MFEs don’t have a database; all the data is supplied to MFEs through the APIs. These APIs are used to read, write, update, and delete data in edx-platform. MFEs with edx-platform work like the <a href="https://thenewstack.io/hub-and-spoke-a-better-way-to-architect-your-tech-stack/" target="_blank" rel="noopener">Hub and Spoke model</a>, where edx-platform is the hub and each of the MFEs are spokes.</p>
+<p><img height="711" width="634" src="/static/edx-platform-mfe.png" alt="A hand-drawn diagram showing a central pink circle labeled &quot;edx-platform,&quot; with lines connecting to three labeled components indicating parts of a modular system involving learning, gradebook, and discussion functions." /></p>
+<p>There are different applications like <a href="https://github.com/openedx/frontend-app-learning/" target="_blank" rel="noopener">frontend-app-learning</a> which serves the LMS frontend, and <a href="https://github.com/openedx/frontend-app-discussions" target="_blank" rel="noopener">frontend-app-discussions</a>, which serves the frontend for the Open edX native forums.</p>

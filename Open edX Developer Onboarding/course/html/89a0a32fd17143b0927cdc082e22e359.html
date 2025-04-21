@@ -1,0 +1,13 @@
+<h3><strong>Internationalization (i18n) </strong></h3>
+<p>The only way that a site can be translated is if its strings are marked appropriately for translation; this is called internationalization (or “i18n”: “i” + 18 letters + “n”). There is special syntax in Python/Django (`gettext`, aliased to `_`) and JavaScript/React (react-intl library) to define strings in a way that tells a scraping script to scrape the strings into a translation file. Translators translate these strings, the translated strings are returned to translation files, and software serves strings according to user preference. How does this work?</p>
+<p>First off, “i18n” actually refers only to the act of defining your strings for eventual translation. The process after internationalizing your strings is called localization, or l10n.</p>
+<p>To begin the l10n process, strings are scraped from Python/Django files and from React projects using native tooling. For example, <a href="https://docs.djangoproject.com/en/4.2/topics/i18n/translation/#localization-how-to-create-language-files" target="_blank">here is a description of the Django tooling.</a> From there, <a href="https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0058-arch-translations-management.html" target="_blank">OEP-58</a> defines how we manage translations in the project. Translation files live <a href="https://github.com/openedx/openedx-translations" target="_blank">in their own repo</a>, and a CLI tool (called <a href="https://github.com/openedx/openedx-translations" target="_blank">Atlas)</a> moves translation files from the repository that contains them to where they are needed for development or deployment. This is to preserve Git history &amp; repo conciseness; prior to the Atlas system, translations were checked in weekly, causing a cluttered Git history as well as a bloated repo size.</p>
+<p><strong>Tutorials:</strong></p>
+<ul>
+<ul>
+<ul>
+<li><a href="https://www.copycat.dev/blog/react-intl/" target="_blank">react-intl tutorial</a></li>
+<li><a href="https://www.youtube.com/watch?v=z_p8WxFGV5A" target="_blank">django i18n tutorial</a></li>
+</ul>
+</ul>
+</ul>

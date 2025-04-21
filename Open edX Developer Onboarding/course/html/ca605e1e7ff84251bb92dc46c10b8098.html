@@ -1,0 +1,18 @@
+<h3><strong>Using your own Python libraries in Tutor</strong></h3>
+<p>What if I want to use another tool not built in – like pudb, as one of Python standard libraries? No worries, we can install it! This is what you can do:</p>
+<ol><ol><ol><ol>
+<li>You can use your config.yml to modify your Open edX Dockerfile, by adding <span style="font-family: terminal, monaco;"><strong><span style="color: #008000;">OPEN_EDX_EXTRA_PIP_REQUIREMENTS</span></strong></span> with a list of the requirements to install:<br /><br />
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">OPENEDX_EXTRA_PIP_REQUIREMENTS:</span></strong><br /><strong><span style="font-family: terminal, monaco; color: #008000;">- pudb==2022.1.3</span></strong></div>
+</li>
+<li>Then run:
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor config save</span></strong></div>
+</li>
+<li><span style="color: #000000; font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;"><span style="color: #000000;">So you’ll get a new Dockerfile, which will install your requirements during the building process of the Open edX image. Now run:</span></span>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">tutor images build openedx openedx-dev/span&gt;</span></strong></div>
+<span style="color: #000000; font-family: terminal, monaco;"></span></li>
+<li>Once you have your new image, you can check it has the requirements already installed by running:
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: 'andale mono', times;">tutor dev exec lms pip show pudb</span></strong></div>
+</li>
+</ol></ol></ol></ol>
+<p>You can use<strong> <span style="font-family: terminal, monaco; color: #008000;">pudb </span></strong>the way we used<strong> <span style="font-family: terminal, monaco; color: #008000;">pbd,</span> </strong>try it out! For more information about<strong> <span style="font-family: terminal, monaco; color: #008000;">pudb</span>, <a href="https://documen.tician.de/pudb/" target="_blank">see its official documentation</a>.</strong></p>
+<p>There’s a lot of stuff you can customize in your dev environment to make it more of your liking: Dockerfiles, docker compose files, Django settings, and even more! We’ll see some of those later on in the customization section.</p>

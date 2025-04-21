@@ -1,0 +1,7 @@
+<h3><strong>Note for Linux Systems </strong></h3>
+<p>You may need to add your user to the Docker group. To check if your user is in the Docker group, you can run “groups”:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">myuser@mycomputer:~$ groups </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">myuser [...] docker</span></strong></div>
+<p>If you do not see Docker listed, you can add your user to the Docker group by running:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">sudo groupadd docker </span></strong></div>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">sudo usermod -aG docker $USER</span></strong></div>

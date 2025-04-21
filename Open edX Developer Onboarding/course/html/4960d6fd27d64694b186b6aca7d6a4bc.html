@@ -1,0 +1,18 @@
+<p>Now let’s look at an important concept in Git called branches. Think of the work in a repository as a <em>“trunk”</em> (called either <em>“master”</em> or <em>“main” </em>in Open edX repos), and your work on a bug-fix or a feature as a branch coming out from the trunk. Ultimately, you will merge your branch back into the trunk (<em>“master”</em> or <em>“main”</em>). To learn more about branches, see this <a href="https://www.atlassian.com/git/tutorials/using-branches#:~:text=Branching%20is%20a%20feature%20available,a%20snapshot%20of%20your%20changes." target="_blank">tutorial from Atlassian</a>.</p>
+<p></p>
+<p><img height="100%" width="100%" src="/static/git_branches.png" alt="A diagram showing two branches 'branchA' and 'branchB' diverging from a Master branch at different points with commit points represented by colored circles. Text annotations explain the relationship of each branch to the Master branch." /></p>
+<p>Branches enable multiple features/fixes to be developed at once, without impeding the progress of the trunk (“Master” branch). In this diagram, the “Master” branch has 4 commits. “branchA” branches off at the 1st commit and “branchB” branches off at the 3rd commit. As branches are developed, they often fall behind the trunk branch; when this happens, we follow a rebase workflow to get branches up to date. We’ll talk about rebasing in the next section. To create a new branch, you can run:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><span style="color: #44a347; font-family: 'andale mono', times;"><strong><span style="color: #008000; font-family: terminal, monaco;">$ git branch&lt;branchname&gt;</span></strong><branchname></branchname></span></div>
+<p>This will create a branch but in order to switch to the branch you need to run:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">$ git checkout <branchname></branchname>&lt;branchname&gt;</span></strong></div>
+<p>Alternatively, we can use the <strong><span style="color: #008000; font-family: terminal, monaco;">checkout.</span></strong> command with the<strong><span style="color: #008000; font-family: terminal, monaco;"> -b </span></strong>flag in order to both create a branch and switch to it at the same time:</p>
+<div class="color-box" style="background-color: #eaf1f5;"><strong><span style="color: #008000; font-family: terminal, monaco;">$ git checkout -b <branchname></branchname>&lt;branchname&gt;</span></strong></div>
+<p></p>
+<p></p>
+<h3><img src="/static/Stop_sign.png" alt="" type="saveimage" target="[object Object]" preventdefault="function (){r.isDefaultPrevented=n}" stoppropagation="function (){r.isPropagationStopped=n}" stopimmediatepropagation="function (){r.isImmediatePropagationStopped=n}" isdefaultprevented="function t(){return!1}" ispropagationstopped="function t(){return!1}" isimmediatepropagationstopped="function t(){return!1}" width="117" height="117" align="left" /></h3>
+<div style="margin-left: 100pt;">
+<p><strong>Note:</strong> It simply switches to <strong><span style="color: #008000; font-family: terminal, monaco;">&lt;branchname&gt;</span></strong> if it already exists.</p>
+<p>Only when there is no branch with that name does it create one. Now that you know how to create a branch, let’s look at how you can keep your branches and forks up to date.</p>
+</div>
+<h4></h4>
+<h4>Click next to learn about keeping your fork up-to-date.</h4>

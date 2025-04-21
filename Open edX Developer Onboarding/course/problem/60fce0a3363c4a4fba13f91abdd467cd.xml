@@ -1,0 +1,110 @@
+<problem display_name="Module 3 Quiz" markdown="&gt;&gt;1. Which deployment methods are officially recommended by the Open edX project?&lt;&lt;&#10;[x] Kubernetes&#10;[x] Tutor Local&#10;[!] Manual installation&#10;[x] Third-party hosting solutions&#10;&#10;&gt;&gt;2. Before installing Tutor, what is a prerequisite regarding the server you're using?&lt;&lt;&#10;(!) It must be a Windows server.&#10;( ) It should have a SQL database pre-installed.&#10;(x) It should have access to the internet and sufficient resources (RAM, compute power, disk space).&#10;( )  It must be hosted on a cloud service like AWS or Google Cloud.&#10;&#10;&gt;&gt;3. When deploying Open edX with Tutor to Kubernetes, what is the assumed prerequisite concerning tools?&lt;&lt;&#10;(!) Helm installed&#10;( ) node 18 or newer&#10;(x) kubectl installed and configured&#10;( ) Docker Desktop installed&#10;&#10;&gt;&gt;4. Which of the following is not a step in setting up DNS records for your Open edX instance?&lt;&lt;&#10;(!) Create an A record pointing to your server's IP address.&#10;(x) Define a TXT record with your LMS’s hostname&#10;( ) Setting up a wildcard CNAME record for subdomains.&#10;( ) Setting up DNS before launching Tutor.&#10;&#10;&gt;&gt;5. Why would you choose a Kubernetes deployment over a Tutor Local deployment for Open edX?&lt;&lt;&#10;(!) Kubernetes deployment is easier to set up.&#10;(x) Kubernetes allows for better scalability and resilience.&#10;( ) Kubernetes is the only way to use Tutor.&#10;( ) Tutor Local does not support custom plugins.&#10;&#10;&gt;&gt;6. What is a benefit of using Tutor plugins for deploying Open edX on Kubernetes?&lt;&lt;&#10;(!) It allows direct modification of Open edX core code.&#10;(x)  It enables customization and addition of features without altering the core Tutor application.&#10;( ) Plugins are mandatory for Kubernetes deployments.&#10;( ) Tutor plugins replace the need for kubectl.&#10;&#10;&gt;&gt;7. What is the purpose of using Terraform or similar tools in Open edX deployments?&lt;&lt;&#10;(!) They replace the need for Tutor in managing Open edX.&#10;( ) They are specifically designed for theme customization of Open edX.&#10;(x) They automate and make infrastructure setup reproducible.&#10;( ) They provide a graphical interface for managing Open edX instances.&#10;&#10;&gt;&gt;8. In the context of Open edX, what does configuring Django Settings enable?&lt;&lt;&#10;(!) Direct modification of k8s deployment scripts.&#10;(x) Adjustment of various aspects of the Open edX installation.&#10;( ) Configuration of cloud provider settings only.&#10;( ) Enabling SSL certificates for secure connections.&#10;&#10;&#10;&gt;&gt;9. How can you deploy custom XBlocks in Open edX using Tutor?&lt;&lt;&#10;(!) By adding them to the OPENEDX_EXTRA_PIP_REQUIREMENTS configuration variable.&#10;( ) Uploading the XBlock directly through the LMS admin panel.&#10;( ) Manually copying XBlock code into the edx-platform directory.&#10;( ) Creating a dedicated Tutor plugin for each XBlock.&#10;&#10;&#10;&gt;&gt;10. What is required when performing upgrades of Open edX instances via Tutor?&lt;&lt;&#10;(!) Deleting the old instance and starting over with the new version.&#10;( ) Manual migration of all course content to the new version.&#10;(x) Running Tutor commands which automate upgrade procedures.&#10;( ) Upgrading is automatic and doesn't require any action.&#10;&#10;&gt;&gt;11. When we say an Open edX release is “supported”, what do we mean?&lt;&lt;&#10;[x] The release receives active bug fixes&#10;[!] New features and functionality is being added continuously &#10;[x] The release receives active security fixes&#10;[x] The community will be able to help you with issues encountered in upgrading from the last release to the new supported release&#10;&gt;&gt;12. How often should you update your Open edX instance?&lt;&lt;&#10;(!) Updates are never needed as Open edX releases are supported indefinitely&#10;( ) Once per year, as Open edX releases are supported for a year&#10;(x) Every six months, as Open edX releases are supported for six months&#10;( ) Daily&#10;&#10;" showanswer="" submission_wait_seconds="0" weight="1.0">
+  <label>1. Which deployment methods are officially recommended by the Open edX project? (Select 3)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Kubernetes</choice>
+      <choice correct="true">Tutor Local</choice>
+      <choice correct="false">Manual installation</choice>
+      <choice correct="true">Third-party hosting solutions</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>2. Before installing Tutor, what is a prerequisite regarding the server you're using?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">It must be a Windows server.</choice>
+      <choice correct="false">It should have a SQL database pre-installed.</choice>
+      <choice correct="true">It should have access to the internet and sufficient resources (RAM, compute power, disk space).</choice>
+      <choice correct="false">It must be hosted on a cloud service like AWS or Google Cloud.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>3. When deploying Open edX with Tutor to Kubernetes, what is the assumed prerequisite concerning tools?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Helm installed</choice>
+      <choice correct="false">Node 18 or newer</choice>
+      <choice correct="true">Kubectl installed and configured</choice>
+      <choice correct="false">Docker Desktop installed</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>4. Which of the following is not a step in setting up DNS records for your Open edX instance?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Create an A record pointing to your server's IP address.</choice>
+      <choice correct="true">Define a TXT record with your LMS’s hostname</choice>
+      <choice correct="false">Setting up a wildcard CNAME record for subdomains.</choice>
+      <choice correct="false">Setting up DNS before launching Tutor.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>5. Why would you choose a Kubernetes deployment over a Tutor Local deployment for Open edX?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Kubernetes deployment is easier to set up.</choice>
+      <choice correct="true">Kubernetes allows for better scalability and resilience.</choice>
+      <choice correct="false">Kubernetes is the only way to use Tutor.</choice>
+      <choice correct="false">Tutor Local does not support custom plugins.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>6. What is a benefit of using Tutor plugins for deploying Open edX on Kubernetes?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">It allows direct modification of Open edX core code.</choice>
+      <choice correct="true">It enables customization and addition of features without altering the core Tutor application.</choice>
+      <choice correct="false">Plugins are mandatory for Kubernetes deployments.</choice>
+      <choice correct="false">Tutor plugins replace the need for kubectl.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>7. What is the purpose of using Terraform or similar tools in Open edX deployments?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">They replace the need for Tutor in managing Open edX.</choice>
+      <choice correct="false">They are specifically designed for theme customization of Open edX.</choice>
+      <choice correct="true">They automate and make infrastructure setup reproducible.</choice>
+      <choice correct="false">They provide a graphical interface for managing Open edX instances.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>8. In the context of Open edX, what does configuring Django Settings enable?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Direct modification of k8s deployment scripts.</choice>
+      <choice correct="true">Adjustment of various aspects of the Open edX installation.</choice>
+      <choice correct="false">Configuration of cloud provider settings only.</choice>
+      <choice correct="false">Enabling SSL certificates for secure connections.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>9. How can you deploy custom XBlocks in Open edX using Tutor?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">By adding them to the OPENEDX_EXTRA_PIP_REQUIREMENTS configuration variable.</choice>
+      <choice correct="true">Uploading the XBlock directly through the LMS admin panel.</choice>
+      <choice correct="false">Manually copying XBlock code into the edx-platform directory.</choice>
+      <choice correct="false">Creating a dedicated Tutor plugin for each XBlock.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>10. What is required when performing upgrades of Open edX instances via Tutor?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Deleting the old instance and starting over with the new version.</choice>
+      <choice correct="false">Manual migration of all course content to the new version.</choice>
+      <choice correct="true">Running Tutor commands which automate upgrade procedures.</choice>
+      <choice correct="false">Upgrading is automatic and doesn't require any action.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>11. When we say an Open edX release is “supported”, what do we mean? (Select 3)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">The release receives active bug fixes</choice>
+      <choice correct="false">New features and functionality is being added continuously </choice>
+      <choice correct="true">The release receives active security fixes</choice>
+      <choice correct="true">The community will be able to help you with issues encountered in upgrading from the last release to the new supported release</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>12. How often should you update your Open edX instance?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Updates are never needed as Open edX releases are supported indefinitely</choice>
+      <choice correct="false">Once per year, as Open edX releases are supported for a year</choice>
+      <choice correct="true">Every six months, as Open edX releases are supported for six months</choice>
+      <choice correct="false">Daily</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

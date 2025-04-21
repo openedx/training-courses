@@ -1,0 +1,11 @@
+<p>Using Tutor’s local deployment for production is good enough for small instances with modest requirements and low number of users, but the simplicity of Tutor’s local deployment, which runs everything on the same server, comes with some disadvantages:</p>
+<ul>
+<ul>
+<ul>
+<li>Scaling to a larger number of users is challenging.</li>
+<li>Such a system is not resilient to hardware or network failures. A common engineering mantra is that a "cluster is not a cluster under three nodes".</li>
+</ul>
+</ul>
+</ul>
+<p>If you need a more performant and resilient deployment, Tutor supports <a href="https://docs.tutor.overhang.io/k8s.html" target="_blank">deploying to Kubernetes clusters</a>.</p>
+<p><a href="https://kubernetes.io" target="_blank">Kubernetes</a> is a powerful but complex system. This section assumes that you are already familiar with the <a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" target="_blank">basic concepts of Kubernetes</a>. If you are not familiar with it, or need to refresh your memory, the official Kubernetes site contains a section explaining the basic concepts of Kubernetes and the Linux Foundation offers a <a href="https://www.edx.org/learn/kubernetes/the-linux-foundation-introduction-to-kubernetes" target="_blank">free course on edx.org</a>.</p>

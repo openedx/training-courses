@@ -1,0 +1,123 @@
+<problem display_name="Check Your Knowledge! - Module 2" markdown="&gt;&gt;1. Which of the following are key goals of the DevX Working Group? (Select all that apply.)&lt;&lt;&#10;[x] Identifying qualities that make a developer experience &quot;good&quot;{{ selected: That’s right! This is a key goal of the DevX Working Group.}}&#10;[x] Actively improving current developer processes and tools {{ selected: That’s right! This is a key goal of the DevX Working Group.}}&#10;[ ] Developing new content for the Open edX platform {{ selected: That is not correct. Try again.}}&#10;[x]Empowering the community to build and maintain tooling extensions {{ selected: That’s right! This is a key goal of the DevX Working Group.}}&#10;&#10;&gt;&gt;2. What are some of the prerequisites for setting up an Open edX development environment? (Select all that apply.)&lt;&lt;&#10;[x] Python {{ selected: That’s right! This is one of the prerequisites.}}&#10;[x] Docker-compose {{ selected: That’s right! This is one of the prerequisites.}}&#10;[x] Virtualenv {{ selected: That’s right! This is one of the prerequisites.}}&#10;[ ] Apache server {{ selected: That is not correct. Try again.}}&#10;&#10;&gt;&gt;3. Why would you use Tutor in Open edX development?(Select all that apply.)&lt;&lt;&#10;[x]  To manage user data within Open edX platforms {{ selected: That’s right! This is one reason you would use Tutor.}}&#10;[x] To deploy, customize, upgrade, and scale Open edX platforms {{ selected: That’s right! This is one reason you would use Tutor.}}&#10;[ ]  To handle the financial transactions on Open edX platforms {{ selected: That is not correct. Try again.}}&#10;[x]  To develop new features of the Open edX project {{ selected: That’s right! This is one reason you would use Tutor.}}&#10;&#10;&#10;For the next two questions match the tools with their primary functions in Open edX development.&#10;&gt;&gt;4. What is Tutor used for?&lt;&lt;&#10;[[&#10;To handle the financial transactions &#10;(Deploying and managing Open edX installations)&#10;Creating isolated Python environments&#10;A  platform for developing, shipping, and running applications&#10;]]&#10;&gt;&gt;5. What is Virtualenv used for?&lt;&lt;&#10;[[&#10;Deploying and managing Open edX installations&#10;(Creating isolated Python environments)&#10;To manage the repositories&#10;A  platform for developing, shipping, and running applications&#10;]]&#10;&#10;&#10;&gt;&gt;6. What are some features of Docker? (Select all that apply)&lt;&lt;&#10;[x] Tutor uses Docker to build and run the Open edX software {{ selected: That’s right! Tutor is a Docker-based Open edX distribution }}&#10;[ ] Docker only runs on Amazon Web Services {{ selected: That is not correct, Docker makes it easy to provision an Open edX instance on any cloud service provider }}&#10;[ ] Docker is maintained by the Open edX project {{ selected: That is not correct, Docker is a tool that was created and is maintained by a company called Docker. }}&#10;[x] An “image” file is provided by the Open edX project that is a read-only template containing instructions for creating a container {{ selected: That’s right! You can see the default Open edX image here: https://hub.docker.com/r/overhangio/openedx/ }}&#10;[ ] There is only one “image” file that can be used by the Open edX software {{ selected: That is not correct. See the Tutor docs for information on customizing your image file. https://docs.tutor.edly.io/configuration.html#custom-open-edx-docker-image }}&#10;&#10;&gt;&gt;7. Which actions can be performed with the ``tutor dev`` command? (Select all that apply.)&lt;&lt;&#10;[x] Starting all or a selection of services {{ selected: That’s right! This action can be performed with that command.}}&#10;[x] Running a command in a new container {{ selected: That’s right! This action can be performed with that command.}}&#10;[ ] Migrating the Open edX platform to a new version{{ selected: That is not correct. Try again.}}&#10;[x] Viewing output from containers {{ selected: That’s right! This action can be performed with that command.}}&#10;&#10;&gt;&gt;8. What are necessary steps to set up a Tutor environment for the first time? (Select all that apply.)&lt;&lt;&#10;[x] Generating a default config.yml {{ selected: That’s right! This is a necessary step to set up a Tutor environment.}}&#10;[x] Building Open edX docker images {{ selected: That’s right! This is a necessary step to set up a Tutor environment.}}&#10;[ ] Directly editing the Open edX platform code {{ selected: That is not correct. Try again.}}&#10;[x] Starting and initializing services {{ selected: That’s right! This is a necessary step to set up a Tutor environment.}}&#10;&#10;&gt;&gt;9. When developing with Tutor, what strategies can be employed for a developer-friendly setup? (Select all that apply.)&lt;&lt;&#10;[x] Using bind mounts to connect code from the machine to Docker containers {{ selected: That’s right! This is one of the strategies.}}&#10;[ ] Running Tutor in production mode for faster reloads {{ selected: That is not correct. Try again.}}&#10;[x] Modifying the provisioning of Docker services as needed {{ selected: That’s right! This is one of the strategies.}}&#10;[ ] Utilizing a public cloud environment for development {{ selected: That is not correct. Try again.}}&#10;&#10;&gt;&gt;10. Where is the recommended place to seek help for specific Open edX development environment problems?&lt;&lt;&#10;(!) Open edX wiki {{That is not correct. Try again.}}&#10;( ) Tutor's GitHub issues {{That is not correct. Try again.}}&#10;(x) Open edX forums {{Correct! This is the best place to seek help.}}&#10;( ) DevX Working Group meetings {{That is not correct. Try again.}}&#10;&#10;" showanswer="" submission_wait_seconds="0" weight="1.0">
+  <label>1. Which of the following are key goals of the DevX Working Group? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Identifying qualities that make a developer experience "good"
+      <choicehint selected="true">That’s right! This is a key goal of the DevX Working Group.</choicehint></choice>
+      <choice correct="true">Actively improving current developer processes and tools
+      <choicehint selected="true">That’s right! This is a key goal of the DevX Working Group.</choicehint></choice>
+      <choice correct="false">Developing new content for the Open edX platform
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">Empowering the community to build and maintain tooling extensions
+      <choicehint selected="true">That’s right! This is a key goal of the DevX Working Group.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>2. What are some of the prerequisites for setting up an Open edX development environment? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Python
+      <choicehint selected="true">That’s right! This is one of the prerequisites.</choicehint></choice>
+      <choice correct="true">Docker-compose
+      <choicehint selected="true">That’s right! This is one of the prerequisites.</choicehint></choice>
+      <choice correct="true">Virtualenv
+      <choicehint selected="true">That’s right! This is one of the prerequisites.</choicehint></choice>
+      <choice correct="false">Apache server
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>3. Why would you use Tutor in Open edX development? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">To manage user data within Open edX platforms
+      <choicehint selected="true">That’s right! This is one reason you would use Tutor.</choicehint></choice>
+      <choice correct="true">To deploy, customize, upgrade, and scale Open edX platforms
+      <choicehint selected="true">That’s right! This is one reason you would use Tutor.</choicehint></choice>
+      <choice correct="false">To handle the financial transactions on Open edX platforms
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">To develop new features of the Open edX project
+      <choicehint selected="true">That’s right! This is one reason you would use Tutor.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <p>For the next two questions match the tools with their primary functions in Open edX development.</p>
+  <label>4. What is Tutor used for?</label>
+  <optionresponse>
+    <optioninput>
+      <option correct="False">To handle the financial transactions</option>
+      <option correct="True">Deploying and managing Open edX installations</option>
+      <option correct="False">Creating isolated Python environments</option>
+      <option correct="False">A  platform for developing, shipping, and running applications</option>
+    </optioninput>
+  </optionresponse>
+  <label>5. What is Virtualenv used for?</label>
+  <optionresponse>
+    <optioninput>
+      <option correct="False">Deploying and managing Open edX installations</option>
+      <option correct="True">Creating isolated Python environments</option>
+      <option correct="False">To manage the repositories</option>
+      <option correct="False">A  platform for developing, shipping, and running applications</option>
+    </optioninput>
+  </optionresponse>
+  <label>6. What are some features of Docker? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Tutor uses Docker to build and run the Open edX software
+      <choicehint selected="true">That’s right! Tutor is a Docker-based Open edX distribution</choicehint></choice>
+      <choice correct="false">Docker only runs on Amazon Web Services
+      <choicehint selected="true">That is not correct, Docker makes it easy to provision an Open edX instance on any cloud service provider</choicehint></choice>
+      <choice correct="false">Docker is maintained by the Open edX project
+      <choicehint selected="true">That is not correct, Docker is a tool that was created and is maintained by a company called Docker.</choicehint></choice>
+      <choice correct="true">An “image” file is provided by the Open edX project that is a read-only template containing instructions for creating a container
+      <choicehint selected="true">That’s right! You can see the default Open edX image here: https://hub.docker.com/r/overhangio/openedx/</choicehint></choice>
+      <choice correct="false">There is only one “image” file that can be used by the Open edX software
+      <choicehint selected="true">That is not correct. See the Tutor docs for information on customizing your image file. https://docs.tutor.edly.io/configuration.html#custom-open-edx-docker-image</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>7. Which actions can be performed with the ``tutor dev`` command? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Starting all or a selection of services
+      <choicehint selected="true">That’s right! This action can be performed with that command.</choicehint></choice>
+      <choice correct="true">Running a command in a new container
+      <choicehint selected="true">That’s right! This action can be performed with that command.</choicehint></choice>
+      <choice correct="false">Migrating the Open edX platform to a new version
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">Viewing output from containers
+      <choicehint selected="true">That’s right! This action can be performed with that command.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>8. What are necessary steps to set up a Tutor environment for the first time? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Generating a default config.yml
+      <choicehint selected="true">That’s right! This is a necessary step to set up a Tutor environment.</choicehint></choice>
+      <choice correct="true">Building Open edX docker images
+      <choicehint selected="true">That’s right! This is a necessary step to set up a Tutor environment.</choicehint></choice>
+      <choice correct="false">Directly editing the Open edX platform code
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">Starting and initializing services
+      <choicehint selected="true">That’s right! This is a necessary step to set up a Tutor environment.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>9. When developing with Tutor, what strategies can be employed for a developer-friendly setup? (Select all that apply)</label>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">Using bind mounts to connect code from the machine to Docker containers
+      <choicehint selected="true">That’s right! This is one of the strategies.</choicehint></choice>
+      <choice correct="false">Running Tutor in production mode for faster reloads
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">Modifying the provisioning of Docker services as needed
+      <choicehint selected="true">That’s right! This is one of the strategies.</choicehint></choice>
+      <choice correct="false">Utilizing a public cloud environment for development
+      <choicehint selected="true">That is not correct. Try again.</choicehint></choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <label>10. Where is the recommended place to seek help for specific Open edX development environment problems?</label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice" shuffle="true">
+      <choice correct="false">Open edX wiki <choicehint>That is not correct. Try again.</choicehint></choice>
+      <choice correct="false">Tutor's GitHub issues <choicehint>That is not correct. Try again.</choicehint></choice>
+      <choice correct="true">Open edX forums <choicehint>Correct! This is the best place to seek help.</choicehint></choice>
+      <choice correct="false">DevX Working Group meetings <choicehint>That is not correct. Try again.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

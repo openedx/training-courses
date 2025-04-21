@@ -1,0 +1,15 @@
+<p>As with most open source codebases, the Open edX project operates on a CI/CD basis. Continuous Integration and Continuous Delivery (CI/CD) are terms used to describe a process where multiple changes are made to a codebase simultaneously. The Open edX project uses <a href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions</a> to run our continuous integration (CI) testing. Additionally, as of 2024, the team at 2U/edx.org utilizes continuous deployment (CD) to deploy code as soon as it merges to the site. Their team is the only team in the Open edX ecosystem utilizing CD from master; most community members run off of Named Releases or their own forks.</p>
+<p>A CI system runs tests, defined in GitHub Actions, on every push to a pull request. The checks may pass, fail, or be neutral (informative tests that don’t impact your ability to merge). At the bottom of your pull request, the status checks look like this:</p>
+<p><img height="100%" width="100%" src="/static/some_checks_were_not_successful.png" alt="Image of some checks were not successful" /></p>
+<p>Different repos have different types of tests, but some tests are standard throughout the project:</p>
+<ul>
+<ul>
+<ul>
+<li>CLA Check ensures that your work is covered under an individual or entity CLA (<a href="https://training.openedx.org/courses/course-v1:Axim+Dev-Onboarding+2023/jump_to_id/9a649efb613b47139bef3a30dd664109" target="_blank" rel="noopener">What is the Open edX CLA?</a>)</li>
+<li>Lint Commit Messages ensures that your commits follow the <a href="https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html" target="_blank" rel="noopener">Conventional Commit</a> standard</li>
+<li>Node.js CI tests runs Node tests on repos with frontend code</li>
+<li>Python CI tests runs Python unit tests and pep8/pylint quality checks on Python based repos</li>
+</ul>
+</ul>
+</ul>
+<p></p>
