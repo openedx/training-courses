@@ -1,7 +1,7 @@
 OLX Example Course
 ==================================
 
-This is the OLX example course described in the `OLX documentation <https://docs.openedx.org/en/latest/educators/olx/front_matter/read_me.html>`.
+This is the OLX example course described in the `OLX documentation <https://docs.openedx.org/en/latest/educators/olx/front_matter/read_me.html>`_.
 It contains all the course content in an unzipped view. You can use it to:
 
 * Inspect the OLX code
