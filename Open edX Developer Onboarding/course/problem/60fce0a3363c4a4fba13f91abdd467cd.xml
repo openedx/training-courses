@@ -74,8 +74,8 @@
   <label>9. How can you deploy custom XBlocks in Open edX using Tutor?</label>
   <multiplechoiceresponse>
     <choicegroup type="MultipleChoice" shuffle="true">
-      <choice correct="false">By adding them to the OPENEDX_EXTRA_PIP_REQUIREMENTS configuration variable.</choice>
-      <choice correct="true">Uploading the XBlock directly through the LMS admin panel.</choice>
+      <choice correct="true">By adding them to the OPENEDX_EXTRA_PIP_REQUIREMENTS configuration variable.</choice>
+      <choice correct="false">Uploading the XBlock directly through the LMS admin panel.</choice>
       <choice correct="false">Manually copying XBlock code into the edx-platform directory.</choice>
       <choice correct="false">Creating a dedicated Tutor plugin for each XBlock.</choice>
     </choicegroup>
