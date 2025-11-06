@@ -26,10 +26,6 @@ This repository contains courses that you can import into your Open edX instance
      - ``course-v1:OpenedX+OEX-Dev101+2024``
      - `<./dist/Open\ edX\ Developer\ Onboarding.tar.gz>`_
      - `<./Open\ edX\ Developer\ Onboarding>`_
-   * - *OLX example course*
-     - 
-     - `<./dist/olx-example.tar.gz>`_
-     - `<./olx-example>`_
    * *OLX example course*
      - ``course-v1:OpenedX+OLXex+2025``
      - `<./dist/OLX-example-course.tar.gz>`_
