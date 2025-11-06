@@ -1,0 +1,6 @@
+<sequential default_time_limit_minutes="0" display_name="Subsection 2: Graded as Homework" due="null" format="Homework" graded="true" hide_after_due="false" show_correctness="always" start="2025-06-01T00:00:00Z">
+  <vertical url_name="Unit1Videos"/>
+  <vertical url_name="Unit2SelectionProblems"/>
+  <vertical url_name="Unit3LTI"/>
+  <vertical url_name="Unit4FormulaResponseHomework"/>
+</sequential>

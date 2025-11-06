@@ -8,6 +8,8 @@ OEX_INTRO_COURSE=Intro\ To\ Open\ edX\ Course
 OEX_INTRO_COURSE_TAR=dist/$(OEX_INTRO_COURSE).tar.gz
 DEV_INTRO_COURSE=Open\ edX\ Developer\ Onboarding
 DEV_INTRO_COURSE_TAR=dist/$(DEV_INTRO_COURSE).tar.gz
+OLX_EXAMPLE_COURSE=OLX-example-course
+OLX_EXAMPLE_COURSE_TAR=dist/OLX-example-course.tar.gz
 
 help: ## Display this help message.
 	@echo "Please use \`make <target>' where <target> is one of"
@@ -20,6 +22,7 @@ dist: clean ## Create/overwrite exports in ./dist/ folder for courses
 	cd $(CC_COURSE) && tar czfv ../$(CC_COURSE_TAR) ./course/
 	cd $(OEX_INTRO_COURSE) && tar czfv ../$(OEX_INTRO_COURSE_TAR) ./course/
 	cd $(DEV_INTRO_COURSE) && tar czfv ../$(DEV_INTRO_COURSE_TAR) ./course/
+	cd $(OLX_EXAMPLE_COURSE) && tar czfv ../$(OLX_EXAMPLE_COURSE_TAR) ./course/	
 
 gitclean:  ## Remove hidden system files that are ignored by git.
 	git clean -dfX
@@ -28,3 +31,4 @@ unpack: ## Unpack course exports from ./dist/ folder into source OLX.
 	[ -f $(CC_COURSE_TAR) ] && mkdir -p $(CC_COURSE) && (cd $(CC_COURSE) && tar xzfv ../$(CC_COURSE_TAR)) || echo "No course to unpack."
 	[ -f $(OEX_INTRO_COURSE_TAR) ] && mkdir -p $(OEX_INTRO_COURSE) && (cd $(OEX_INTRO_COURSE) && tar xzfv ../$(OEX_INTRO_COURSE_TAR)) || echo "No course to unpack."
 	[ -f $(DEV_INTRO_COURSE_TAR) ] && mkdir -p $(DEV_INTRO_COURSE) && (cd $(DEV_INTRO_COURSE) && tar xzfv ../$(DEV_INTRO_COURSE_TAR)) || echo "No course to unpack."
+	[ -f $(OLX_EXAMPLE_COURSE_TAR) ] && mkdir -p $(OLX_EXAMPLE_COURSE) && (cd $(OLX_EXAMPLE_COURSE) && tar xzfv ../$(OLX_EXAMPLE_COURSE_TAR)) || echo "No course to unpack."

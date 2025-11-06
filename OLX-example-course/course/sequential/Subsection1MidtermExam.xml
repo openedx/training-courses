@@ -1,0 +1,6 @@
+<sequential default_time_limit_minutes="0" display_name="Subsection 1: Midterm Exam" due="null" format="Midterm Exam" graded="true" hide_after_due="false" show_correctness="always" start="2025-06-01T00:00:00Z">
+  <vertical url_name="Unit1InputProblems.xml"/>
+  <vertical url_name="Unit2Poll"/>
+  <vertical url_name="Unit3SGA"/>
+  <vertical url_name="Unit4FormulaResponseMidterm"/>
+</sequential>
