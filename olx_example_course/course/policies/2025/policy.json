@@ -90,7 +90,7 @@
                 "course_staff_only": false,
                 "name": "HTML Custom Tab",
                 "type": "static_tab",
-                "url_slug": "HTMLCustomTab"
+                "url_slug": "html_custom_tab"
             }
         ]
     }
