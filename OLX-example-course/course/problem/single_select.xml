@@ -1,3 +1,0 @@
-<problem display_name="Single select" markdown_edited="false" rerandomize="never" show_reset_button="false" showanswer="finished" submission_wait_seconds="0" weight="2.0"><multiplechoiceresponse>
-<div>What is the correct answer?</div><choicegroup><choice correct="false"><div>Incorrect</div></choice><choice correct="false"><div>Incorrect</div></choice><choice correct="true"><div>Correct</div></choice></choicegroup><solution><div class="detailed-solution"><p>Explanation</p><p>The correct answer is called "Correct"</p></div></solution></multiplechoiceresponse>
-</problem>

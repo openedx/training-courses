@@ -8,8 +8,8 @@ OEX_INTRO_COURSE=Intro\ To\ Open\ edX\ Course
 OEX_INTRO_COURSE_TAR=dist/$(OEX_INTRO_COURSE).tar.gz
 DEV_INTRO_COURSE=Open\ edX\ Developer\ Onboarding
 DEV_INTRO_COURSE_TAR=dist/$(DEV_INTRO_COURSE).tar.gz
-OLX_EXAMPLE_COURSE=OLX-example-course
-OLX_EXAMPLE_COURSE_TAR=dist/OLX-example-course.tar.gz
+OLX_EXAMPLE_COURSE=olx_example_course
+OLX_EXAMPLE_COURSE_TAR=dist/olx_example_course.tar.gz
 
 help: ## Display this help message.
 	@echo "Please use \`make <target>' where <target> is one of"
