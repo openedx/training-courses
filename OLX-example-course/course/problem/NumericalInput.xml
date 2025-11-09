@@ -1,3 +1,0 @@
-<problem display_name="Numerical input" markdown_edited="false" rerandomize="never" show_reset_button="false" showanswer="finished" weight="1.0"><div>The correct answer is 42.</div>
-<numericalresponse answer="42"><responseparam type="tolerance" default="5"/><formulaequationinput/><solution><div class="detailed-solution"><p>Explanation</p><p>The answer to the great question... of Life, the Universe and Everything... is... 42</p></div></solution></numericalresponse>
-</problem>

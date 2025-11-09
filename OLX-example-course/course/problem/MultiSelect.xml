@@ -1,3 +1,0 @@
-<problem display_name="Multi-select" markdown_edited="false" max_attempts="2" rerandomize="never" show_reset_button="false" showanswer="finished" weight="5.0"><choiceresponse>
-<div>What are the correct answers?</div><checkboxgroup><choice correct="true"><div>Correct</div></choice><choice correct="false"><div>Incorrect</div></choice><choice correct="true"><div>Correct</div></choice></checkboxgroup><solution><div class="detailed-solution"><p>Explanation</p><p>The correct answers are marked with "correct"</p></div></solution></choiceresponse>
-</problem>
