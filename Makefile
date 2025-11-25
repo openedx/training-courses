@@ -16,18 +16,22 @@ help: ## Display this help message.
 	@grep '^[a-zA-Z]' $(MAKEFILE_LIST) | sort | awk -F ':.*?## ' 'NF==2 {printf "\033[36m  %-25s\033[0m %s\n", $$1, $$2}'
 
 clean: ## Delete all generated course exports.
-	rm -f $(CC_COURSE_TAR) $(OEX_INTRO_COURSE_TAR) $(DEV_INTRO_COURSE_TAR)
+	rm -f $(CC_COURSE_TAR) $(OEX_INTRO_COURSE_TAR) $(DEV_INTRO_COURSE_TAR) $(OLX_EXAMPLE_COURSE_TAR)
 
-dist_cc: clean ## Create/overwrite exports in ./dist/ folder for courses
+dist_cc: ## Create/overwrite exports in ./dist/ folder for courses
+	rf -f $(CC_COURSE_TAR)
 	cd $(CC_COURSE) && tar czfv ../$(CC_COURSE_TAR) ./course/
 
 dist_intro:
+	rm -f $(OEX_INTRO_COURSE_TAR)
 	cd $(OEX_INTRO_COURSE) && tar czfv ../$(OEX_INTRO_COURSE_TAR) ./course/
 
 dist_dev:
+	rm -f $(DEV_INTRO_COURSE_TAR)
 	cd $(DEV_INTRO_COURSE) && tar czfv ../$(DEV_INTRO_COURSE_TAR) ./course/
 
 dist_olx:
+	rm -f $(OLX_EXAMPLE_COURSE_TAR)
 	cd $(OLX_EXAMPLE_COURSE) && tar czfv ../$(OLX_EXAMPLE_COURSE_TAR) ./course/	
 
 gitclean:  ## Remove hidden system files that are ignored by git.
