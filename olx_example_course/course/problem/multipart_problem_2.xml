@@ -1,0 +1,43 @@
+<problem display_name="Multipart Problem 2" rerandomize="never" show_reset_button="true" showanswer="finished" weight="2.0">
+	<multiplechoiceresponse>
+		<div>What is the correct answer?</div>
+		<choicegroup>
+			<choice correct="false">
+				<div>Incorrect</div>
+			</choice>
+			<choice correct="false">
+				<div>Incorrect</div>
+			</choice>
+			<choice correct="true">
+				<div>Correct</div>
+			</choice>
+		</choicegroup>
+		<solution>
+			<div class="detailed-solution">
+				<p>Explanation</p>
+				<p>The correct answer is called "Correct"</p>
+			</div>
+		</solution>
+	</multiplechoiceresponse>
+
+	<multiplechoiceresponse>
+		<div>What is the incorrect answer?</div>
+		<choicegroup>
+			<choice correct="true">
+				<div>Incorrect</div>
+			</choice>
+			<choice correct="false">
+				<div>Correct</div>
+			</choice>
+			<choice correct="false">
+				<div>Correct</div>
+			</choice>
+		</choicegroup>
+		<solution>
+			<div class="detailed-solution">
+				<p>Explanation</p>
+				<p>The correct answer is called "Incorrect"</p>
+			</div>
+		</solution>
+	</multiplechoiceresponse>
+</problem>

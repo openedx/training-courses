@@ -1,0 +1,34 @@
+<problem display_name="Multipart Problem 1" max_attempts="2" rerandomize="never" show_reset_button="false" showanswer="finished" weight="5.0">
+	<choiceresponse>
+		<div>What are the correct answers?</div>
+		<checkboxgroup>
+			<choice correct="true">
+				<div>Correct</div>
+			</choice>
+			<choice correct="false">
+				<div>Incorrect</div>
+			</choice>
+			<choice correct="true">
+				<div>Correct</div>
+			</choice>
+		</checkboxgroup>
+		<solution>
+			<div class="detailed-solution">
+				<p>Explanation</p>
+				<p>The correct answers are marked with "correct"</p>
+			</div>
+		</solution>
+	</choiceresponse>
+
+   <div>The correct answer is 42.</div>
+	<numericalresponse answer="42">
+		<responseparam type="tolerance" default="5"/>
+		<formulaequationinput/>
+		<solution>
+			<div class="detailed-solution">
+				<p>Explanation</p>
+				<p>The answer to the great question... of Life, the Universe and Everything... is... 42</p>
+			</div>
+		</solution>
+	</numericalresponse>
+</problem>

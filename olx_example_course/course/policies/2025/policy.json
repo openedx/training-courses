@@ -1,0 +1,97 @@
+{
+    "course/2025": {
+        "advanced_modules": [
+            "edx_sga",
+            "lti",
+            "scorm",
+            "poll",
+            "survey"
+        ],
+        "cert_html_view_enabled": true,
+        "certificates_display_behavior": "CertificatesDisplayBehaviors.END",
+        "course_image": "Intro_to_OLX_course_card.png",
+        "discussion_topics": {
+            "General": {
+                "id": "course"
+            }
+        },
+        "discussions_settings": {
+            "enable_graded_units": false,
+            "enable_in_context": true,
+            "provider_type": "openedx",
+            "unit_level_visibility": true
+        },
+        "display_name": "OLX Example Course",
+        "end": "2027-06-01T00:00:00Z",
+        "enrollment_end": "2026-01-31T00:00:00Z",
+        "enrollment_start": "2025-05-01T00:00:00Z",
+        "graceperiod": "7200 seconds",
+        "instructor_info": {
+            "instructors": []
+        },
+        "language": "en",
+        "learning_info": [],
+        "lti_passports": [
+            "codeboard:codeboard_key_1:codeboard_secret_1234",
+            "jupyter:811a447706c152588c436ee13addeeb889e7f256033679408737bd5bc4118225:869e9639af7de74929b13ae17ad22e4efb60d9d112143e287589289102e1de00"
+        ],
+        "minimum_grade_credit": 0.8,
+        "pdf_textbooks": [
+            {
+                "chapters": [
+                    {
+                        "title": "Full Book",
+                        "url": "/asset-v1:OpenedX+OLXex+2025+type@asset+block@Education_for_a_Digital_World.pdf"
+                    }
+                ],
+                "id": "6Education_for_a_Digital_World",
+                "tab_title": "Education for a Digital World: Advice, Guidelines and Effective Practice from Around Globe"
+            }
+        ],
+        "start": "2025-06-01T00:00:00Z",
+        "tabs": [
+            {
+                "course_staff_only": false,
+                "name": "Course",
+                "type": "courseware"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Progress",
+                "type": "progress"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Dates",
+                "type": "dates"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Discussion",
+                "type": "discussion"
+            },
+            {
+                "course_staff_only": false,
+                "is_hidden": true,
+                "name": "Wiki",
+                "type": "wiki"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Textbooks",
+                "type": "textbooks"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Textbooks",
+                "type": "pdf_textbooks"
+            },
+            {
+                "course_staff_only": false,
+                "name": "HTML Custom Tab",
+                "type": "static_tab",
+                "url_slug": "html_custom_tab"
+            }
+        ]
+    }
+}

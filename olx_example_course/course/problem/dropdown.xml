@@ -1,0 +1,16 @@
+<problem display_name="Dropdown" markdown_edited="false" rerandomize="never" show_reset_button="false" showanswer="finished" weight="1.0">
+	<optionresponse>
+		<div>What is the correct answer?</div>
+		<optioninput>
+			<option correct="false">Incorrect</option>
+			<option correct="true">Correct</option>
+			<option correct="false">Incorrect</option>
+		</optioninput>
+		<solution>
+			<div class="detailed-solution">
+				<p>Explanation</p>
+				<p>The correct answer is called "correct"</p>
+			</div>
+		</solution>
+	</optionresponse>
+</problem>

@@ -1,0 +1,6 @@
+<sequential default_time_limit_minutes="0" display_name="Subsection 2: Final Exam" due="null" format="Final Exam" graded="true" hide_after_due="false" show_correctness="always" start="2025-06-01T00:00:00Z">
+  <vertical url_name="unit_1_math_expression_input"/>
+  <vertical url_name="unit_2_python_evaluated_input"/>
+  <vertical url_name="unit_3_custom_survey"/>
+  <vertical url_name="unit_4_formula_response_final"/>
+</sequential>
