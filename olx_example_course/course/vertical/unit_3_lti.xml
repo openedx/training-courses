@@ -1,4 +1,4 @@
 <vertical display_name="Unit 3: LTI">
   <html url_name="lti_introduction"/>
-  <lti url_name="codeboard_lti"/>
+  <lti_consumer url_name="c9e73522f2c345bb94b318cd846c0107" xblock-family="xblock.v1" display_name="Codeboard.io LTI Demonstration" has_score="true" launch_url="https://codeboard.io/lti/projects/414233" lti_id="codeboard" lti_version="lti_1p1"/>
 </vertical>
