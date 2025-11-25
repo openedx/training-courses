@@ -18,10 +18,16 @@ help: ## Display this help message.
 clean: ## Delete all generated course exports.
 	rm -f $(CC_COURSE_TAR) $(OEX_INTRO_COURSE_TAR) $(DEV_INTRO_COURSE_TAR)
 
-dist: clean ## Create/overwrite exports in ./dist/ folder for courses
+dist_cc: clean ## Create/overwrite exports in ./dist/ folder for courses
 	cd $(CC_COURSE) && tar czfv ../$(CC_COURSE_TAR) ./course/
+
+dist_intro:
 	cd $(OEX_INTRO_COURSE) && tar czfv ../$(OEX_INTRO_COURSE_TAR) ./course/
+
+dist_dev:
 	cd $(DEV_INTRO_COURSE) && tar czfv ../$(DEV_INTRO_COURSE_TAR) ./course/
+
+dist_olx:
 	cd $(OLX_EXAMPLE_COURSE) && tar czfv ../$(OLX_EXAMPLE_COURSE_TAR) ./course/	
 
 gitclean:  ## Remove hidden system files that are ignored by git.
@@ -31,4 +37,16 @@ unpack: ## Unpack course exports from ./dist/ folder into source OLX.
 	[ -f $(CC_COURSE_TAR) ] && mkdir -p $(CC_COURSE) && (cd $(CC_COURSE) && tar xzfv ../$(CC_COURSE_TAR)) || echo "No course to unpack."
 	[ -f $(OEX_INTRO_COURSE_TAR) ] && mkdir -p $(OEX_INTRO_COURSE) && (cd $(OEX_INTRO_COURSE) && tar xzfv ../$(OEX_INTRO_COURSE_TAR)) || echo "No course to unpack."
 	[ -f $(DEV_INTRO_COURSE_TAR) ] && mkdir -p $(DEV_INTRO_COURSE) && (cd $(DEV_INTRO_COURSE) && tar xzfv ../$(DEV_INTRO_COURSE_TAR)) || echo "No course to unpack."
+	[ -f $(OLX_EXAMPLE_COURSE_TAR) ] && mkdir -p $(OLX_EXAMPLE_COURSE) && (cd $(OLX_EXAMPLE_COURSE) && tar xzfv ../$(OLX_EXAMPLE_COURSE_TAR)) || echo "No course to unpack."
+
+unpack_cc:
+	[ -f $(CC_COURSE_TAR) ] && mkdir -p $(CC_COURSE) && (cd $(CC_COURSE) && tar xzfv ../$(CC_COURSE_TAR)) || echo "No course to unpack."
+
+unpack_intro:
+	[ -f $(OEX_INTRO_COURSE_TAR) ] && mkdir -p $(OEX_INTRO_COURSE) && (cd $(OEX_INTRO_COURSE) && tar xzfv ../$(OEX_INTRO_COURSE_TAR)) || echo "No course to unpack."
+
+unpack_dev:
+	[ -f $(DEV_INTRO_COURSE_TAR) ] && mkdir -p $(DEV_INTRO_COURSE) && (cd $(DEV_INTRO_COURSE) && tar xzfv ../$(DEV_INTRO_COURSE_TAR)) || echo "No course to unpack."
+
+unpack_olx:
 	[ -f $(OLX_EXAMPLE_COURSE_TAR) ] && mkdir -p $(OLX_EXAMPLE_COURSE) && (cd $(OLX_EXAMPLE_COURSE) && tar xzfv ../$(OLX_EXAMPLE_COURSE_TAR)) || echo "No course to unpack."
