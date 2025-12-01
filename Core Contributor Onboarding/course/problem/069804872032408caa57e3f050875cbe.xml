@@ -1,12 +1,3 @@
-<problem display_name="Ensure Your Write Access is Set" markdown="null">
-  <multiplechoiceresponse>
-    <p>File a <a href="https://github.com/openedx/axim-engineering/issues/new/choose">Axim Access/Config GitHub request</a> for adding access for yourself for whichever repo(s) you should get access to. Include a link to your nomination thread and tag the CC who nominated you.</p>
-    <p>Once you've received confirmation that your access is set, please visit each repository you were nominated to be a Core Contributor for and ensure you have write access. This is easy to do by navigating to any open PR and checking that the "merge" button is visible underneath the automated test check reporting.</p>
-    <label>I have done this</label>
-    <choicegroup type="MultipleChoice">
-      <choice correct="false">I'll do it later</choice>
-      <choice correct="true">Yes</choice>
-      <choice correct="false">I'll never do it</choice>
-    </choicegroup>
-  </multiplechoiceresponse>
+<problem display_name="Ensure Your Write Access is Set" markdown="null" showanswer="" submission_wait_seconds="0" weight="1.0"><multiplechoiceresponse>
+<p>If you have not already done so, file a <a href="https://github.com/openedx/axim-engineering/issues/new/choose">Axim Access/Config GitHub request</a> for adding access for yourself for whichever repo(s) you should get access to. Include a link to your nomination thread and tag the CC who nominated you.</p><p>After your access has been granted, be sure to remember to double-check your access by visiting each repository you were nominated to be a Core Contributor for and ensuring you have write access. This is easy to do by navigating to any open PR and checking that the "merge" button is visible underneath the automated test check reporting.</p><label>I have done this, or it has already been done.</label><choicegroup><choice correct="true"><div>OK, I'll double-check my access as soon as it's granted</div></choice><choice correct="false"><div>Nah, I'll just wait until there's a problem</div></choice></choicegroup></multiplechoiceresponse>
 </problem>

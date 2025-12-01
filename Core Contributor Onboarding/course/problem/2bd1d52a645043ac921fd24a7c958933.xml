@@ -1,13 +1,3 @@
-<problem display_name="Section Checklist" markdown="null">
-  <choiceresponse>
-    <label>Let's make sure you've completed all the CC tasks presented in this unit. </label>
-    <checkboxgroup>
-      <choice correct="true">I've signed the Core Contributor Program Agreement </choice>
-      <choice correct="true">I've said hi in <a href="https://openedx.slack.com/archives/C015KC8CN76">#core-contributors in Slack</a></choice>
-      <choice correct="true">I've made sure my information is accurate on the Core Contributor wiki page </choice>
-      <choice correct="true">I've made an account on the Open edX forums so I can participate in and be tagged in sprint retrospectives</choice>
-      <choice correct="true">I can access Listaflow (sprint retrospective tool) - Note: you will receive access to Listaflow about a week after your Program Agreement is signed by both you and Axim. If you don't have access at that point, please comment on your onboarding ticket that you created on GitHub.</choice>
-      <choice correct="true">I have added the Working Groups calendar to my calendar, and I know when the biweekly Contributor's Discussion is.</choice>
-    </checkboxgroup>
-  </choiceresponse>
+<problem display_name="Section Checklist" markdown="null" showanswer="" submission_wait_seconds="0" weight="1.0"><choiceresponse>
+<label>Let's make sure you've completed all the CC tasks presented in this unit. </label><checkboxgroup><choice correct="true"><div>I've signed the Core Contributor Program Agreement</div></choice><choice correct="true"><div>I've said hi in <a href="https://openedx.slack.com/archives/C015KC8CN76">#core-contributors in Slack</a></div></choice><choice correct="true"><div>I've added myself to the Core Contributor wiki page</div></choice><choice correct="true"><div>I've made an account on the Open edX forums so I can participate in and be tagged in sprint retrospectives</div></choice><choice correct="true"><div>I can access Listaflow (sprint retrospective tool) - Note: you will need to message Fox Danger Piacenti on the Open edX slack to request access to Listaflow. Please send him the link to your Core Contributor nomination thread from the forums.</div></choice><choice correct="true"><div>I have added the Working Groups calendar to my calendar, and I know when the biweekly Contributor's Discussion is.</div></choice></checkboxgroup></choiceresponse>
 </problem>
